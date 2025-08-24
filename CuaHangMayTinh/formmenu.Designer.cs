@@ -88,12 +88,14 @@
             laptopToolStripMenuItem.Name = "laptopToolStripMenuItem";
             laptopToolStripMenuItem.Size = new Size(227, 32);
             laptopToolStripMenuItem.Text = "Laptop";
+            laptopToolStripMenuItem.Click += laptopToolStripMenuItem_Click;
             // 
             // linhKiệnToolStripMenuItem
             // 
             linhKiệnToolStripMenuItem.Name = "linhKiệnToolStripMenuItem";
             linhKiệnToolStripMenuItem.Size = new Size(227, 32);
             linhKiệnToolStripMenuItem.Text = "Linh kiện";
+            linhKiệnToolStripMenuItem.Click += linhKiệnToolStripMenuItem_Click;
             // 
             // chuộtbànPhímvvToolStripMenuItem
             // 
@@ -109,6 +111,7 @@
             hóaĐơnToolStripMenuItem.Name = "hóaĐơnToolStripMenuItem";
             hóaĐơnToolStripMenuItem.Size = new Size(132, 39);
             hóaĐơnToolStripMenuItem.Text = "Hóa Đơn";
+            hóaĐơnToolStripMenuItem.Click += hóaĐơnToolStripMenuItem_Click;
             // 
             // chiTiếtHóaĐơnToolStripMenuItem
             // 
@@ -144,7 +147,7 @@
             // 
             // panelMain
             // 
-            panelMain.BackColor = Color.FromArgb(192, 255, 255);
+            panelMain.BackColor = Color.FromArgb(128, 255, 255);
             panelMain.Dock = DockStyle.Fill;
             panelMain.Location = new Point(0, 43);
             panelMain.Name = "panelMain";
@@ -152,7 +155,7 @@
             panelMain.TabIndex = 1;
             panelMain.Paint += panelMain_Paint;
             // 
-            // Form2
+            // formmenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -160,7 +163,7 @@
             Controls.Add(panelMain);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
-            Name = "Form2";
+            Name = "formmenu";
             Text = "Form2";
             Load += Form2_Load;
             menuStrip1.ResumeLayout(false);

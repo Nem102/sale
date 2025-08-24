@@ -26,7 +26,7 @@ namespace CuaHangMayTinh
 
         private void chuộtbànPhímvvToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            LoadControl(new linhkienkhac());
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -53,6 +53,21 @@ namespace CuaHangMayTinh
         private void pCBuildSẵnToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LoadControl(new cuahang2());
+        }
+
+        private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadControl(new hoadon());
+        }
+
+        private void laptopToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadControl(new laptop());
+        }
+
+        private void linhKiệnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadControl(new linhkien());
         }
     }
 }

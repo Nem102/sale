@@ -18,3 +18,8 @@ C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windo
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.cuahang1.resources
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.cuahang2.resources
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.formmenu.resources
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.sourcelink.json
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadon.resources
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.laptop.resources
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.linhkien.resources
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.linhkienkhac.resources

@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace CuaHangMayTinh
 {
-    partial class cuahang1
+    partial class hoadon
     {
         private Label label1;
 
@@ -20,7 +20,7 @@ namespace CuaHangMayTinh
             label1.Name = "label1";
             label1.Size = new Size(333, 30);
             label1.TabIndex = 0;
-            label1.Text = "ĐÂY LÀ MÀN HÌNH CỬA HÀNG";
+            label1.Text = "ĐÂY LÀ Hóa đơn CỬA HÀNG";
             label1.Click += label1_Click;
             // 
             // cuahang1
@@ -29,9 +29,9 @@ namespace CuaHangMayTinh
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(128, 255, 255);
             Controls.Add(label1);
-            Name = "cuahang1";
+            Name = "hoadon";
             Size = new Size(1098, 526);
-            Load += cuahang1_Load;
+            Load += hoadon_Load;
             ResumeLayout(false);
             PerformLayout();
         }

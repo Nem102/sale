@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace CuaHangMayTinh
 {
-    partial class cuahang1
+    partial class laptop
     {
         private Label label1;
 
@@ -29,9 +29,9 @@ namespace CuaHangMayTinh
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(128, 255, 255);
             Controls.Add(label1);
-            Name = "cuahang1";
+            Name = "laptop";
             Size = new Size(1098, 526);
-            Load += cuahang1_Load;
+            Load += laptop_Load;
             ResumeLayout(false);
             PerformLayout();
         }
