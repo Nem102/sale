@@ -1,3 +1,6 @@
+﻿using System;
+using System.Windows.Forms;
+
 namespace CuaHangMayTinh
 {
     internal static class Program
@@ -6,12 +9,13 @@ namespace CuaHangMayTinh
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main()   // <-- entry point phải như này
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new formmenu());
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            // Chạy form đăng nhập đầu tiên
+            Application.Run(new DangNhap());
         }
     }
 }

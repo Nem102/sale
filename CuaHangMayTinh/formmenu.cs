@@ -11,16 +11,20 @@ using System.Windows.Forms;
 
 namespace CuaHangMayTinh
 {
-    public partial class formmenu : Form
+    public partial class Formmenu : Form
     {
-        public formmenu()
+        public Formmenu()
         {
             InitializeComponent();
         }
+        private void sảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadControl(new cuahang1());
 
+        }
         private void chiTiếtHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            LoadControl(new cuahang1());
 
         }
 
@@ -42,7 +46,7 @@ namespace CuaHangMayTinh
 
         private void cửaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadControl(new cuahang1());
+
         }
 
         private void panelMain_Paint(object sender, PaintEventArgs e)
@@ -68,6 +72,23 @@ namespace CuaHangMayTinh
         private void linhKiệnToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LoadControl(new linhkien());
+        }
+
+        private void đăngNhậpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DangNhap f = new DangNhap();
+            f.ShowDialog();
+
+        }
+
+        private void kháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadControl(new khachhang());
+        }
+
+        private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadControl(new nhanvien());
         }
     }
 }

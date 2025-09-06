@@ -4,10 +4,13 @@
     <Compile Update="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formmenu.cs">
+    <Compile Update="Formmenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="hoadon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="khachhang.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="laptop.cs">
@@ -17,6 +20,9 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="linhkienkhac.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="nhanvien.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Properties\cuahang1.cs">
