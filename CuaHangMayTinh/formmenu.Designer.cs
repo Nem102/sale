@@ -33,11 +33,8 @@
             cửaToolStripMenuItem = new ToolStripMenuItem();
             đăngNhậpToolStripMenuItem = new ToolStripMenuItem();
             sảnPhẩmToolStripMenuItem = new ToolStripMenuItem();
-            pCBuildSẵnToolStripMenuItem = new ToolStripMenuItem();
-            laptopToolStripMenuItem = new ToolStripMenuItem();
-            linhKiệnToolStripMenuItem = new ToolStripMenuItem();
-            chuộtbànPhímvvToolStripMenuItem = new ToolStripMenuItem();
             sảnPhẩmToolStripMenuItem1 = new ToolStripMenuItem();
+            chuộtbànPhímvvToolStripMenuItem = new ToolStripMenuItem();
             hóaĐơnToolStripMenuItem = new ToolStripMenuItem();
             chiTiếtHóaĐơnToolStripMenuItem = new ToolStripMenuItem();
             kháchHàngToolStripMenuItem = new ToolStripMenuItem();
@@ -49,7 +46,7 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.BackColor = Color.MediumSeaGreen;
+            menuStrip1.BackColor = Color.White;
             menuStrip1.Font = new Font("Segoe UI", 15F);
             menuStrip1.ImageScalingSize = new Size(30, 35);
             menuStrip1.Items.AddRange(new ToolStripItem[] { cửaToolStripMenuItem, sảnPhẩmToolStripMenuItem, hóaĐơnToolStripMenuItem, chiTiếtHóaĐơnToolStripMenuItem, kháchHàngToolStripMenuItem, nhânViênToolStripMenuItem, khuyếnMãiToolStripMenuItem });
@@ -61,8 +58,9 @@
             // 
             // cửaToolStripMenuItem
             // 
-            cửaToolStripMenuItem.BackColor = Color.MediumSeaGreen;
+            cửaToolStripMenuItem.BackColor = Color.White;
             cửaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { đăngNhậpToolStripMenuItem });
+            cửaToolStripMenuItem.ForeColor = Color.Black;
             cửaToolStripMenuItem.Image = (Image)resources.GetObject("cửaToolStripMenuItem.Image");
             cửaToolStripMenuItem.ImageAlign = ContentAlignment.MiddleLeft;
             cửaToolStripMenuItem.Name = "cửaToolStripMenuItem";
@@ -79,7 +77,8 @@
             // 
             // sảnPhẩmToolStripMenuItem
             // 
-            sảnPhẩmToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { sảnPhẩmToolStripMenuItem1, pCBuildSẵnToolStripMenuItem, laptopToolStripMenuItem, linhKiệnToolStripMenuItem, chuộtbànPhímvvToolStripMenuItem });
+            sảnPhẩmToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { sảnPhẩmToolStripMenuItem1, chuộtbànPhímvvToolStripMenuItem });
+            sảnPhẩmToolStripMenuItem.ForeColor = Color.Black;
             sảnPhẩmToolStripMenuItem.Image = (Image)resources.GetObject("sảnPhẩmToolStripMenuItem.Image");
             sảnPhẩmToolStripMenuItem.ImageAlign = ContentAlignment.MiddleLeft;
             sảnPhẩmToolStripMenuItem.Name = "sảnPhẩmToolStripMenuItem";
@@ -87,26 +86,13 @@
             sảnPhẩmToolStripMenuItem.Text = "Sản Phẩm";
             sảnPhẩmToolStripMenuItem.Click += sảnPhẩmToolStripMenuItem_Click;
             // 
-            // pCBuildSẵnToolStripMenuItem
+            // sảnPhẩmToolStripMenuItem1
             // 
-            pCBuildSẵnToolStripMenuItem.Name = "pCBuildSẵnToolStripMenuItem";
-            pCBuildSẵnToolStripMenuItem.Size = new Size(227, 32);
-            pCBuildSẵnToolStripMenuItem.Text = "PC Build sẵn";
-            pCBuildSẵnToolStripMenuItem.Click += pCBuildSẵnToolStripMenuItem_Click;
-            // 
-            // laptopToolStripMenuItem
-            // 
-            laptopToolStripMenuItem.Name = "laptopToolStripMenuItem";
-            laptopToolStripMenuItem.Size = new Size(227, 32);
-            laptopToolStripMenuItem.Text = "Laptop";
-            laptopToolStripMenuItem.Click += laptopToolStripMenuItem_Click;
-            // 
-            // linhKiệnToolStripMenuItem
-            // 
-            linhKiệnToolStripMenuItem.Name = "linhKiệnToolStripMenuItem";
-            linhKiệnToolStripMenuItem.Size = new Size(227, 32);
-            linhKiệnToolStripMenuItem.Text = "Linh kiện";
-            linhKiệnToolStripMenuItem.Click += linhKiệnToolStripMenuItem_Click;
+            sảnPhẩmToolStripMenuItem1.ImageAlign = ContentAlignment.MiddleRight;
+            sảnPhẩmToolStripMenuItem1.Name = "sảnPhẩmToolStripMenuItem1";
+            sảnPhẩmToolStripMenuItem1.Size = new Size(227, 32);
+            sảnPhẩmToolStripMenuItem1.Text = "Sản Phẩm Chính";
+            sảnPhẩmToolStripMenuItem1.Click += sảnPhẩmToolStripMenuItem1_Click;
             // 
             // chuộtbànPhímvvToolStripMenuItem
             // 
@@ -115,14 +101,9 @@
             chuộtbànPhímvvToolStripMenuItem.Text = "Các thiết bị khác";
             chuộtbànPhímvvToolStripMenuItem.Click += chuộtbànPhímvvToolStripMenuItem_Click;
             // 
-            // sảnPhẩmToolStripMenuItem1
-            // 
-            sảnPhẩmToolStripMenuItem1.Name = "sảnPhẩmToolStripMenuItem1";
-            sảnPhẩmToolStripMenuItem1.Size = new Size(227, 32);
-            sảnPhẩmToolStripMenuItem1.Text = "Sản Phẩm";
-            // 
             // hóaĐơnToolStripMenuItem
             // 
+            hóaĐơnToolStripMenuItem.ForeColor = Color.Black;
             hóaĐơnToolStripMenuItem.Image = (Image)resources.GetObject("hóaĐơnToolStripMenuItem.Image");
             hóaĐơnToolStripMenuItem.ImageAlign = ContentAlignment.MiddleLeft;
             hóaĐơnToolStripMenuItem.Name = "hóaĐơnToolStripMenuItem";
@@ -132,6 +113,7 @@
             // 
             // chiTiếtHóaĐơnToolStripMenuItem
             // 
+            chiTiếtHóaĐơnToolStripMenuItem.ForeColor = Color.Black;
             chiTiếtHóaĐơnToolStripMenuItem.Image = (Image)resources.GetObject("chiTiếtHóaĐơnToolStripMenuItem.Image");
             chiTiếtHóaĐơnToolStripMenuItem.ImageAlign = ContentAlignment.MiddleLeft;
             chiTiếtHóaĐơnToolStripMenuItem.Name = "chiTiếtHóaĐơnToolStripMenuItem";
@@ -166,7 +148,7 @@
             // 
             // panelMain
             // 
-            panelMain.BackColor = Color.FromArgb(128, 255, 255);
+            panelMain.BackColor = Color.Silver;
             panelMain.Dock = DockStyle.Fill;
             panelMain.Location = new Point(0, 43);
             panelMain.Name = "panelMain";
@@ -201,9 +183,6 @@
         private ToolStripMenuItem kháchHàngToolStripMenuItem;
         private ToolStripMenuItem nhânViênToolStripMenuItem;
         private ToolStripMenuItem khuyếnMãiToolStripMenuItem;
-        private ToolStripMenuItem pCBuildSẵnToolStripMenuItem;
-        private ToolStripMenuItem laptopToolStripMenuItem;
-        private ToolStripMenuItem linhKiệnToolStripMenuItem;
         private ToolStripMenuItem chuộtbànPhímvvToolStripMenuItem;
         private Panel panelMain;
         private ToolStripMenuItem đăngNhậpToolStripMenuItem;

@@ -6,87 +6,92 @@ namespace CuaHangMayTinh
 {
     public partial class DangNhap : Form
     {
-
-        string connectionString =
- @"Data Source=DESKTOP-9BSLFIO;Initial Catalog=CuaHangMayTinh;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;";
-
-
-
+        // Field duy nhất cho chuỗi kết nối
+        private readonly string connectionString =
+@"Data Source=DESKTOP-9BSLFIO;Initial Catalog=CuaHangMayTinh;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;";
 
         public DangNhap()
         {
             InitializeComponent();
+            txt_matkhau.UseSystemPasswordChar = true; // mặc định ẩn mật khẩu
         }
-        private void label1_Click(object sender, EventArgs e) { }
-        private void textBox2_TextChanged(object sender, EventArgs e) {
-            txt_matkhau.UseSystemPasswordChar = true;
 
+        // Hiện / ẩn mật khẩu theo checkbox
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            txt_matkhau.UseSystemPasswordChar = !checkBox1.Checked;
         }
-        private void button3_Click(object sender, EventArgs e) { }
 
-        private void button2_Click(object sender, EventArgs e) { }
-
-
+        // Nút đăng nhập
         private void button1_Click(object sender, EventArgs e)
         {
-            string username = txt_taikhoan.Text;
-            string password = txt_matkhau.Text;
+            string username = txt_taikhoan.Text.Trim();
+            string password = txt_matkhau.Text.Trim();
 
-
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
-                conn.Open();
+                MessageBox.Show("Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu.");
+                return;
+            }
 
-                string query = "SELECT * FROM TaiKhoan ";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                using (SqlDataReader reader = cmd.ExecuteReader())
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(this.connectionString))
                 {
-                    if (reader.Read())
+                    conn.Open();
+                    string query = "SELECT matkhau FROM TaiKhoan WHERE taikhoan = @username";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
-                        string dbUsername = reader["taikhoan"].ToString();
-                        string dbPassword = reader["matkhau"].ToString();
+                        cmd.Parameters.AddWithValue("@username", username);
+                        object result = cmd.ExecuteScalar();
 
-                        if (password == dbPassword && username == dbUsername)
+                        if (result != null)
                         {
-                            MessageBox.Show("Đăng nhập thành công!");
-                            // Mở form chính
-                            Formmenu home = new Formmenu();
-                            this.Hide();
-                            home.ShowDialog();
-                            this.Show();
-                        }
-                        else if (password != dbPassword && username != dbUsername)
-                        {
-                            MessageBox.Show("Tên đăng nhập và mật khẩu không đúng.");
-                        }
-                        else if (username != dbUsername)
-                        {
-                            MessageBox.Show("Tên đăng nhập không đúng.");
+                            string dbPassword = result.ToString();
+
+                            if (password == dbPassword)
+                            {
+                                MessageBox.Show("Đăng nhập thành công!");
+                                // Set DialogResult để Program.cs mở Formmenu
+                                this.DialogResult = DialogResult.OK;
+                                this.Close();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Mật khẩu không đúng.");
+                            }
                         }
                         else
                         {
-                            MessageBox.Show("Mật khẩu không đúng.");
+                            MessageBox.Show("Tên đăng nhập không tồn tại.");
                         }
                     }
                 }
             }
-        }
-
-        private void txt_taikhoan_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBox1.Checked)
+            catch (Exception ex)
             {
-                txt_matkhau.UseSystemPasswordChar = false; // Hiện mật khẩu
-            }
-            else
-            {
-                txt_matkhau.UseSystemPasswordChar = true; // Ẩn mật khẩu
+                MessageBox.Show("Lỗi kết nối SQL: " + ex.Message);
             }
         }
+
+        // Nút hủy / đóng form
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();
+        }
+
+        // Nút mở form đăng ký
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Dangky dk = new Dangky();
+            dk.ShowDialog(); // mở đăng ký chặn đăng nhập
+            this.Show();      // trở lại đăng nhập sau khi đóng đăng ký
+        }
+
+        // Các event không dùng, chỉ để tránh lỗi designer
+        private void label1_Click(object sender, EventArgs e) { }
+        private void textBox2_TextChanged(object sender, EventArgs e) { }
     }
 }

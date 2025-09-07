@@ -5,17 +5,26 @@ namespace CuaHangMayTinh
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
         [STAThread]
-        static void Main()   // <-- entry point phải như này
+        static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // Chạy form đăng nhập đầu tiên
-            Application.Run(new DangNhap());
+            // Mở form đăng nhập đầu tiên
+            DangNhap dn = new DangNhap();
+
+            // Kiểm tra kết quả đăng nhập
+            if (dn.ShowDialog() == DialogResult.OK)
+            {
+                // Nếu đăng nhập thành công, mở Formmenu
+                Application.Run(new Formmenu());
+            }
+            else
+            {
+                // Nếu hủy hoặc đăng nhập thất bại, thoát ứng dụng
+                return;
+            }
         }
     }
 }

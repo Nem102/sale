@@ -217,3 +217,5 @@ C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windo
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangM.29DEE0CA.Up2Date
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.khachhang.resources
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.nhanvien.resources
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Dangky.resources
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.MainForm.resources

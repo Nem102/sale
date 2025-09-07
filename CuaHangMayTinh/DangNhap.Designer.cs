@@ -45,7 +45,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20.5F);
             label1.ForeColor = Color.Red;
-            label1.Location = new Point(75, 117);
+            label1.Location = new Point(88, 179);
             label1.Name = "label1";
             label1.Size = new Size(273, 38);
             label1.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 16F);
-            label2.Location = new Point(56, 186);
+            label2.Location = new Point(69, 248);
             label2.Name = "label2";
             label2.Size = new Size(104, 30);
             label2.TabIndex = 2;
@@ -67,7 +67,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 16F);
-            label3.Location = new Point(57, 232);
+            label3.Location = new Point(70, 294);
             label3.Name = "label3";
             label3.Size = new Size(103, 30);
             label3.TabIndex = 3;
@@ -76,7 +76,7 @@
             // txt_matkhau
             // 
             txt_matkhau.BackColor = SystemColors.InactiveCaption;
-            txt_matkhau.Location = new Point(184, 239);
+            txt_matkhau.Location = new Point(197, 301);
             txt_matkhau.Margin = new Padding(3, 2, 3, 2);
             txt_matkhau.Name = "txt_matkhau";
             txt_matkhau.Size = new Size(173, 23);
@@ -86,7 +86,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(56, 337);
+            button1.Location = new Point(69, 399);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(90, 30);
@@ -98,7 +98,7 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(267, 337);
+            button2.Location = new Point(280, 399);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.Size = new Size(90, 30);
@@ -110,7 +110,7 @@
             // button3
             // 
             button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(163, 337);
+            button3.Location = new Point(176, 399);
             button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
             button3.Size = new Size(90, 30);
@@ -122,7 +122,7 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(75, 288);
+            checkBox1.Location = new Point(88, 350);
             checkBox1.Margin = new Padding(3, 2, 3, 2);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(121, 19);
@@ -134,7 +134,7 @@
             // txt_taikhoan
             // 
             txt_taikhoan.BackColor = SystemColors.InactiveCaption;
-            txt_taikhoan.Location = new Point(184, 195);
+            txt_taikhoan.Location = new Point(197, 257);
             txt_taikhoan.Margin = new Padding(3, 2, 3, 2);
             txt_taikhoan.Name = "txt_taikhoan";
             txt_taikhoan.Size = new Size(173, 23);
@@ -144,7 +144,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(128, 255, 255);
+            BackColor = Color.Gainsboro;
             ClientSize = new Size(441, 624);
             Controls.Add(txt_taikhoan);
             Controls.Add(checkBox1);

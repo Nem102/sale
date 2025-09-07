@@ -19,12 +19,12 @@ namespace CuaHangMayTinh
         }
         private void sảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadControl(new cuahang1());
+
 
         }
         private void chiTiếtHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadControl(new cuahang1());
+            
 
         }
 
@@ -89,6 +89,11 @@ namespace CuaHangMayTinh
         private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LoadControl(new nhanvien());
+        }
+
+        private void sảnPhẩmToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            LoadControl(new cuahang1());
         }
     }
 }
