@@ -8,7 +8,7 @@ namespace CuaHangMayTinh
     {
         // Field duy nhất cho chuỗi kết nối
         private readonly string connectionString =
-@"Data Source=DESKTOP-9BSLFIO;Initial Catalog=CuaHangMayTinh;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;";
+@"Data Source=.;Initial Catalog=CuaHangMayTinh;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;";
 
         public DangNhap()
         {

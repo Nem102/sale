@@ -8,21 +8,32 @@ namespace CuaHangMayTinh
     public partial class Dangky : Form
     {
         private readonly string connectionString =
-@"Data Source=DESKTOP-9BSLFIO;Initial Catalog=CuaHangMayTinh;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;";
+@"Data Source=.;Initial Catalog=CuaHangMayTinh;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;";
 
+        private void Dangky_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+        }
         public Dangky()
         {
             InitializeComponent();
-            txtMatKhau.UseSystemPasswordChar = true; // mặc định ẩn mật khẩu
+            txtMatKhau.UseSystemPasswordChar = true; 
         }
 
-        // CheckBox hiện/ẩn mật khẩu
+        
         private void checkBoxHienMatKhau_CheckedChanged(object sender, EventArgs e)
         {
             txtMatKhau.UseSystemPasswordChar = !checkBox1.Checked;
         }
 
-        // Nút đăng ký
+        
         private void btnDangky_Click(object sender, EventArgs e)
         {
             string taikhoan = txtTaiKhoan.Text.Trim();
@@ -35,7 +46,7 @@ namespace CuaHangMayTinh
                 return;
             }
 
-            // Loại bỏ tất cả ký tự không phải số để kiểm tra độ dài
+            
             string cccdOnlyDigits = new string(cccd.Where(char.IsDigit).ToArray());
 
             if (cccdOnlyDigits.Length != 12)
@@ -50,7 +61,7 @@ namespace CuaHangMayTinh
                 {
                     conn.Open();
 
-                    // Kiểm tra tài khoản tồn tại
+                   
                     string checkQuery = "SELECT COUNT(*) FROM TaiKhoan WHERE taikhoan=@taikhoan";
                     using (SqlCommand checkCmd = new SqlCommand(checkQuery, conn))
                     {
@@ -63,19 +74,19 @@ namespace CuaHangMayTinh
                         }
                     }
 
-                    // Thêm tài khoản mới
+                   
                     string insertQuery = "INSERT INTO TaiKhoan (taikhoan, matkhau, cccd) VALUES (@taikhoan, @matkhau, @cccd)";
                     using (SqlCommand cmd = new SqlCommand(insertQuery, conn))
                     {
                         cmd.Parameters.AddWithValue("@taikhoan", taikhoan);
                         cmd.Parameters.AddWithValue("@matkhau", matkhau);
-                        cmd.Parameters.AddWithValue("@cccd", cccdOnlyDigits); // lưu đúng 12 số
+                        cmd.Parameters.AddWithValue("@cccd", cccdOnlyDigits); 
                         cmd.ExecuteNonQuery();
                     }
 
                     MessageBox.Show("Đăng ký thành công! Vui lòng đăng nhập.");
 
-                    // Chuyển sang form đăng nhập
+                   
                     this.Hide();
                     DangNhap dn = new DangNhap();
                     dn.ShowDialog();

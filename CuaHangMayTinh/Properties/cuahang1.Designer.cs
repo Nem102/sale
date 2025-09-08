@@ -24,12 +24,18 @@ namespace CuaHangMayTinh
             button2 = new Button();
             button3 = new Button();
             panel1 = new Panel();
+            panel2 = new Panel();
+            pictureBox1 = new PictureBox();
+            linkChonAnh = new LinkLabel();
+            txtHinhAnh = new Label();
             txtTimKiem = new TextBox();
             btnTimKiem = new Button();
             label1 = new Label();
             bindingSource1 = new BindingSource(components);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
             // 
@@ -156,7 +162,9 @@ namespace CuaHangMayTinh
             // 
             panel1.BackColor = Color.FromArgb(227, 242, 253);
             panel1.BackgroundImageLayout = ImageLayout.Center;
+            panel1.Controls.Add(panel2);
             panel1.Controls.Add(txtTimKiem);
+            panel1.Controls.Add(txtHinhAnh);
             panel1.Controls.Add(btnTimKiem);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(lblMaHang);
@@ -178,9 +186,45 @@ namespace CuaHangMayTinh
             panel1.Size = new Size(861, 618);
             panel1.TabIndex = 28;
             // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(linkChonAnh);
+            panel2.Location = new Point(482, 72);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(187, 164);
+            panel2.TabIndex = 45;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(3, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(181, 143);
+            pictureBox1.TabIndex = 44;
+            pictureBox1.TabStop = false;
+            // 
+            // linkChonAnh
+            // 
+            linkChonAnh.AutoSize = true;
+            linkChonAnh.Location = new Point(54, 149);
+            linkChonAnh.Name = "linkChonAnh";
+            linkChonAnh.Size = new Size(86, 15);
+            linkChonAnh.TabIndex = 42;
+            linkChonAnh.TabStop = true;
+            linkChonAnh.Text = "TẢI HÌNH ẢNH";
+            linkChonAnh.LinkClicked += linkChonAnh_LinkClicked;
+            // 
+            // txtHinhAnh
+            // 
+            txtHinhAnh.Location = new Point(649, 72);
+            txtHinhAnh.Name = "txtHinhAnh";
+            txtHinhAnh.Size = new Size(10, 10);
+            txtHinhAnh.TabIndex = 43;
+            // 
             // txtTimKiem
             // 
-            txtTimKiem.Location = new Point(482, 232);
+            txtTimKiem.Location = new Point(482, 253);
             txtTimKiem.Name = "txtTimKiem";
             txtTimKiem.Size = new Size(200, 23);
             txtTimKiem.TabIndex = 31;
@@ -188,7 +232,7 @@ namespace CuaHangMayTinh
             // btnTimKiem
             // 
             btnTimKiem.BackColor = Color.FromArgb(192, 255, 192);
-            btnTimKiem.Location = new Point(688, 218);
+            btnTimKiem.Location = new Point(688, 239);
             btnTimKiem.Name = "btnTimKiem";
             btnTimKiem.Size = new Size(100, 40);
             btnTimKiem.TabIndex = 30;
@@ -219,6 +263,9 @@ namespace CuaHangMayTinh
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
         }
@@ -242,5 +289,9 @@ namespace CuaHangMayTinh
         private BindingSource bindingSource1;
         private Button btnTimKiem;
         private TextBox txtTimKiem;
+        private LinkLabel linkChonAnh;
+        private Label txtHinhAnh;
+        private PictureBox pictureBox1;
+        private Panel panel2;
     }
 }

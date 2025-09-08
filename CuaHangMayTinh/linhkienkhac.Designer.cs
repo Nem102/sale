@@ -17,6 +17,9 @@
         {
             components = new System.ComponentModel.Container();
             panel1 = new Panel();
+            linkChonAnh = new LinkLabel();
+            txtHinhAnh = new Label();
+            pictureBox1 = new PictureBox();
             txtTimKiem = new TextBox();
             label1 = new Label();
             btnTimKiem = new Button();
@@ -35,14 +38,18 @@
             txtMaHang = new TextBox();
             txtTenHang = new TextBox();
             bindingSource1 = new BindingSource(components);
+            panel2 = new Panel();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(227, 242, 253);
+            panel1.Controls.Add(panel2);
             panel1.Controls.Add(txtTimKiem);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(btnTimKiem);
@@ -65,9 +72,35 @@
             panel1.Size = new Size(861, 612);
             panel1.TabIndex = 29;
             // 
+            // linkChonAnh
+            // 
+            linkChonAnh.AutoSize = true;
+            linkChonAnh.Location = new Point(47, 146);
+            linkChonAnh.Name = "linkChonAnh";
+            linkChonAnh.Size = new Size(90, 15);
+            linkChonAnh.TabIndex = 39;
+            linkChonAnh.TabStop = true;
+            linkChonAnh.Text = "LẤY HÌNH ẢNH";
+            linkChonAnh.LinkClicked += linkChonAnh_LinkClicked;
+            // 
+            // txtHinhAnh
+            // 
+            txtHinhAnh.Location = new Point(47, 151);
+            txtHinhAnh.Name = "txtHinhAnh";
+            txtHinhAnh.Size = new Size(10, 10);
+            txtHinhAnh.TabIndex = 40;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(181, 143);
+            pictureBox1.TabIndex = 41;
+            pictureBox1.TabStop = false;
+            // 
             // txtTimKiem
             // 
-            txtTimKiem.Location = new Point(482, 232);
+            txtTimKiem.Location = new Point(482, 253);
             txtTimKiem.Name = "txtTimKiem";
             txtTimKiem.Size = new Size(200, 23);
             txtTimKiem.TabIndex = 36;
@@ -76,7 +109,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Times New Roman", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(301, 17);
+            label1.Location = new Point(300, 11);
             label1.Name = "label1";
             label1.Size = new Size(260, 27);
             label1.TabIndex = 28;
@@ -85,7 +118,7 @@
             // btnTimKiem
             // 
             btnTimKiem.BackColor = Color.FromArgb(192, 255, 192);
-            btnTimKiem.Location = new Point(688, 218);
+            btnTimKiem.Location = new Point(688, 239);
             btnTimKiem.Name = "btnTimKiem";
             btnTimKiem.Size = new Size(100, 40);
             btnTimKiem.TabIndex = 35;
@@ -149,10 +182,11 @@
             button1.TabIndex = 32;
             button1.Text = "➕ Thêm";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // lblSoLuong
             // 
-            lblSoLuong.Location = new Point(68, 155);
+            lblSoLuong.Location = new Point(68, 152);
             lblSoLuong.Name = "lblSoLuong";
             lblSoLuong.Size = new Size(100, 23);
             lblSoLuong.TabIndex = 17;
@@ -209,6 +243,17 @@
             txtTenHang.Size = new Size(200, 23);
             txtTenHang.TabIndex = 21;
             // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(linkChonAnh);
+            panel2.Controls.Add(txtHinhAnh);
+            panel2.Location = new Point(482, 72);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(183, 162);
+            panel2.TabIndex = 42;
+            // 
             // linhkienkhac
             // 
             BackColor = Color.Silver;
@@ -218,8 +263,11 @@
             Load += linhkienkhac_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -242,5 +290,9 @@
         private Button button3;
         private Button button2;
         private Button button1;
+        private PictureBox pictureBox1;
+        private Label txtHinhAnh;
+        private LinkLabel linkChonAnh;
+        private Panel panel2;
     }
 }
