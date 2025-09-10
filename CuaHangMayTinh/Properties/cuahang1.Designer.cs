@@ -27,8 +27,8 @@ namespace CuaHangMayTinh
             panel2 = new Panel();
             pictureBox1 = new PictureBox();
             linkChonAnh = new LinkLabel();
-            txtHinhAnh = new Label();
             txtTimKiem = new TextBox();
+            txtHinhAnh = new Label();
             btnTimKiem = new Button();
             label1 = new Label();
             bindingSource1 = new BindingSource(components);
@@ -207,7 +207,7 @@ namespace CuaHangMayTinh
             // linkChonAnh
             // 
             linkChonAnh.AutoSize = true;
-            linkChonAnh.Location = new Point(54, 149);
+            linkChonAnh.Location = new Point(22, 149);
             linkChonAnh.Name = "linkChonAnh";
             linkChonAnh.Size = new Size(86, 15);
             linkChonAnh.TabIndex = 42;
@@ -215,19 +215,19 @@ namespace CuaHangMayTinh
             linkChonAnh.Text = "TẢI HÌNH ẢNH";
             linkChonAnh.LinkClicked += linkChonAnh_LinkClicked;
             // 
-            // txtHinhAnh
-            // 
-            txtHinhAnh.Location = new Point(649, 72);
-            txtHinhAnh.Name = "txtHinhAnh";
-            txtHinhAnh.Size = new Size(10, 10);
-            txtHinhAnh.TabIndex = 43;
-            // 
             // txtTimKiem
             // 
             txtTimKiem.Location = new Point(482, 253);
             txtTimKiem.Name = "txtTimKiem";
             txtTimKiem.Size = new Size(200, 23);
             txtTimKiem.TabIndex = 31;
+            // 
+            // txtHinhAnh
+            // 
+            txtHinhAnh.Location = new Point(649, 72);
+            txtHinhAnh.Name = "txtHinhAnh";
+            txtHinhAnh.Size = new Size(10, 10);
+            txtHinhAnh.TabIndex = 43;
             // 
             // btnTimKiem
             // 

@@ -31,13 +31,12 @@ namespace CuaHangMayTinh
             dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
         }
 
-        // ====================== Load dữ liệu ======================
         private void LoadData()
         {
             try
             {
-                kn.Open();
-                string sql = "SELECT ma_hang AS [Mã hàng], tenhang AS [Tên hàng], soluong AS [Số lượng], giaban AS [Giá bán], ghichu AS [Ghi chú], HinhAnh AS [Hình ảnh] FROM HangBan WHERE ma_hang LIKE 'MH%'";
+                string sql = "SELECT ma_hang AS [Mã hàng], tenhang AS [Tên hàng], soluong AS [Số lượng], giaban AS [Giá bán], ghichu AS [Ghi chú], HinhAnh AS [Hình ảnh] " +
+                             "FROM HangBan WHERE ma_hang LIKE 'MH%'";
                 adapter = new SqlDataAdapter(sql, kn);
                 ds = new DataSet();
                 adapter.Fill(ds, "HangBan");
@@ -45,33 +44,24 @@ namespace CuaHangMayTinh
                 bindingSource1.DataSource = ds.Tables["HangBan"];
                 dataGridView1.DataSource = bindingSource1;
 
-                // Hiển thị sản phẩm đầu tiên nếu có
                 if (dataGridView1.Rows.Count > 0)
-                {
                     DisplayRow(dataGridView1.Rows[0]);
-                }
                 else
-                {
-                    ClearTextBoxes();
-                }
+                    ResetTextBoxes();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Lỗi LoadData: " + ex.Message);
-            }
-            finally
-            {
-                kn.Close();
             }
         }
 
         // ====================== Load ảnh an toàn ======================
         private Image LoadImageSafe(string path)
         {
-            if (!File.Exists(path)) return null;
+            if (string.IsNullOrWhiteSpace(path) || !File.Exists(path)) return null;
             using (var fs = new FileStream(path, FileMode.Open, FileAccess.Read))
             {
-                return Image.FromStream(fs);
+                return (Image)Image.FromStream(fs).Clone(); // clone để tránh lock file
             }
         }
 
@@ -83,10 +73,29 @@ namespace CuaHangMayTinh
             txtSoLuong.Text = row.Cells["Số lượng"].Value?.ToString();
             txtGiaBan.Text = row.Cells["Giá bán"].Value?.ToString();
             txtGhiChu.Text = row.Cells["Ghi chú"].Value?.ToString();
-            txtHinhAnh.Text = row.Cells["Hình ảnh"].Value?.ToString();
+
+            object imgCell = row.Cells["Hình ảnh"].Value;
+            txtHinhAnh.Text = (imgCell == null || imgCell == DBNull.Value) ? "" : imgCell.ToString();
 
             pictureBox1.Image = LoadImageSafe(txtHinhAnh.Text);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            // Đổi label theo trạng thái
+            linkChonAnh.Text = string.IsNullOrWhiteSpace(txtHinhAnh.Text)
+                ? "Thêm hình ảnh sản phẩm"
+                : "Thay đổi hình ảnh sản phẩm";
+        }
+
+        private void ResetTextBoxes()
+        {
+            txtMaHang.Clear();
+            txtTenHang.Clear();
+            txtSoLuong.Clear();
+            txtGiaBan.Clear();
+            txtGhiChu.Clear();
+            txtHinhAnh.Text = "";
+            pictureBox1.Image = null;
+            linkChonAnh.Text = "Thêm hình ảnh sản phẩm";
         }
 
         // ====================== Chọn ảnh ======================
@@ -109,20 +118,23 @@ namespace CuaHangMayTinh
                     pictureBox1.Image = LoadImageSafe(originalPath);
                     txtHinhAnh.Text = originalPath;
 
-                    // Lưu đường dẫn ảnh vào DB ngay
-                    kn.Open();
+                    if (kn.State == ConnectionState.Closed) kn.Open();
                     string sql = "UPDATE HangBan SET HinhAnh=@anh WHERE ma_hang=@ma";
                     SqlCommand cmd = new SqlCommand(sql, kn);
                     cmd.Parameters.AddWithValue("@ma", txtMaHang.Text);
                     cmd.Parameters.AddWithValue("@anh", originalPath);
                     cmd.ExecuteNonQuery();
-                    kn.Close();
 
-                    LoadData(); // Cập nhật DataGridView
+                    MessageBox.Show("Cập nhật ảnh thành công!");
+                    LoadData();
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("Lỗi chọn ảnh: " + ex.Message);
+                }
+                finally
+                {
+                    if (kn.State == ConnectionState.Open) kn.Close();
                 }
             }
         }
@@ -138,7 +150,8 @@ namespace CuaHangMayTinh
 
             try
             {
-                kn.Open();
+                if (kn.State == ConnectionState.Closed) kn.Open();
+
                 string checkSql = "SELECT COUNT(*) FROM HangBan WHERE ma_hang = @ma";
                 SqlCommand checkCmd = new SqlCommand(checkSql, kn);
                 checkCmd.Parameters.AddWithValue("@ma", txtMaHang.Text);
@@ -150,7 +163,8 @@ namespace CuaHangMayTinh
                     return;
                 }
 
-                string sql = "INSERT INTO HangBan(ma_hang, tenhang, soluong, giaban, ghichu, HinhAnh) VALUES(@ma, @ten, @sl, @gia, @gc, @anh)";
+                string sql = "INSERT INTO HangBan(ma_hang, tenhang, soluong, giaban, ghichu, HinhAnh) " +
+                             "VALUES(@ma, @ten, @sl, @gia, @gc, @anh)";
                 SqlCommand cmd = new SqlCommand(sql, kn);
                 cmd.Parameters.AddWithValue("@ma", txtMaHang.Text);
                 cmd.Parameters.AddWithValue("@ten", txtTenHang.Text);
@@ -160,8 +174,9 @@ namespace CuaHangMayTinh
                 cmd.Parameters.AddWithValue("@anh", txtHinhAnh.Text);
 
                 cmd.ExecuteNonQuery();
-                LoadData();
                 MessageBox.Show("Thêm thành công!");
+
+                LoadData();
             }
             catch (Exception ex)
             {
@@ -178,6 +193,8 @@ namespace CuaHangMayTinh
         {
             try
             {
+                if (kn.State == ConnectionState.Closed) kn.Open();
+
                 string sql = "UPDATE HangBan SET tenhang=@ten, soluong=@sl, giaban=@gia, ghichu=@gc, HinhAnh=@anh WHERE ma_hang=@ma";
                 SqlCommand cmd = new SqlCommand(sql, kn);
                 cmd.Parameters.AddWithValue("@ma", txtMaHang.Text);
@@ -187,10 +204,9 @@ namespace CuaHangMayTinh
                 cmd.Parameters.AddWithValue("@gc", txtGhiChu.Text);
                 cmd.Parameters.AddWithValue("@anh", txtHinhAnh.Text);
 
-                kn.Open();
                 cmd.ExecuteNonQuery();
-                LoadData();
                 MessageBox.Show("Sửa thành công!");
+                LoadData();
             }
             catch (Exception ex)
             {
@@ -209,14 +225,15 @@ namespace CuaHangMayTinh
             {
                 if (MessageBox.Show("Bạn có chắc muốn xóa không?", "Xác nhận", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
+                    if (kn.State == ConnectionState.Closed) kn.Open();
+
                     string sql = "DELETE FROM HangBan WHERE ma_hang=@ma";
                     SqlCommand cmd = new SqlCommand(sql, kn);
                     cmd.Parameters.AddWithValue("@ma", txtMaHang.Text);
 
-                    kn.Open();
                     cmd.ExecuteNonQuery();
-                    LoadData();
                     MessageBox.Show("Xóa thành công!");
+                    LoadData();
                 }
             }
             catch (Exception ex)
@@ -234,7 +251,7 @@ namespace CuaHangMayTinh
         {
             if (e.RowIndex < 0 || e.RowIndex >= dataGridView1.Rows.Count - 1)
             {
-                ClearTextBoxes();
+                ResetTextBoxes();
                 return;
             }
             DisplayRow(dataGridView1.Rows[e.RowIndex]);
@@ -244,27 +261,16 @@ namespace CuaHangMayTinh
         {
             if (dataGridView1.SelectedRows.Count == 0 || dataGridView1.CurrentRow == null)
             {
-                ClearTextBoxes();
+                ResetTextBoxes();
                 return;
             }
             DisplayRow(dataGridView1.CurrentRow);
         }
 
-        // ====================== Clear ======================
+        // ====================== Clear khi click ngoài ======================
         private void cuahang1_Click(object sender, EventArgs e)
         {
-            ClearTextBoxes();
-        }
-
-        private void ClearTextBoxes()
-        {
-            txtMaHang.Clear();
-            txtTenHang.Clear();
-            txtSoLuong.Clear();
-            txtGiaBan.Clear();
-            txtGhiChu.Clear();
-            txtHinhAnh.Text = "";
-            pictureBox1.Image = null;
+            ResetTextBoxes();
         }
 
         // ====================== Tìm kiếm ======================
@@ -274,7 +280,7 @@ namespace CuaHangMayTinh
 
             try
             {
-                kn.Open();
+                if (kn.State == ConnectionState.Closed) kn.Open();
                 string sql = "SELECT ma_hang AS [Mã hàng], tenhang AS [Tên hàng], soluong AS [Số lượng], giaban AS [Giá bán], ghichu AS [Ghi chú], HinhAnh AS [Hình ảnh] " +
                              "FROM HangBan WHERE ma_hang LIKE @kw OR tenhang LIKE @kw";
                 SqlCommand cmd = new SqlCommand(sql, kn);
@@ -287,11 +293,10 @@ namespace CuaHangMayTinh
                 bindingSource1.DataSource = dt;
                 dataGridView1.DataSource = bindingSource1;
 
-                // Hiển thị dòng đầu tiên kết quả tìm kiếm
                 if (dataGridView1.Rows.Count > 0)
                     DisplayRow(dataGridView1.Rows[0]);
                 else
-                    ClearTextBoxes();
+                    ResetTextBoxes();
             }
             catch (Exception ex)
             {

@@ -17,18 +17,19 @@
         {
             components = new System.ComponentModel.Container();
             panel1 = new Panel();
+            panel2 = new Panel();
+            pictureBox1 = new PictureBox();
             linkChonAnh = new LinkLabel();
             txtHinhAnh = new Label();
-            pictureBox1 = new PictureBox();
             txtTimKiem = new TextBox();
             label1 = new Label();
             btnTimKiem = new Button();
             lblMaHang = new Label();
-            button3 = new Button();
+            btxoa = new Button();
             dataGridView1 = new DataGridView();
-            button2 = new Button();
+            btsua = new Button();
             lblTenHang = new Label();
-            button1 = new Button();
+            btthem = new Button();
             lblSoLuong = new Label();
             txtGhiChu = new TextBox();
             lblGiaBan = new Label();
@@ -38,12 +39,11 @@
             txtMaHang = new TextBox();
             txtTenHang = new TextBox();
             bindingSource1 = new BindingSource(components);
-            panel2 = new Panel();
             panel1.SuspendLayout();
+            panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
-            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -54,11 +54,11 @@
             panel1.Controls.Add(label1);
             panel1.Controls.Add(btnTimKiem);
             panel1.Controls.Add(lblMaHang);
-            panel1.Controls.Add(button3);
+            panel1.Controls.Add(btxoa);
             panel1.Controls.Add(dataGridView1);
-            panel1.Controls.Add(button2);
+            panel1.Controls.Add(btsua);
             panel1.Controls.Add(lblTenHang);
-            panel1.Controls.Add(button1);
+            panel1.Controls.Add(btthem);
             panel1.Controls.Add(lblSoLuong);
             panel1.Controls.Add(txtGhiChu);
             panel1.Controls.Add(lblGiaBan);
@@ -71,6 +71,25 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(861, 612);
             panel1.TabIndex = 29;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(linkChonAnh);
+            panel2.Controls.Add(txtHinhAnh);
+            panel2.Location = new Point(482, 72);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(183, 162);
+            panel2.TabIndex = 42;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(181, 143);
+            pictureBox1.TabIndex = 41;
+            pictureBox1.TabStop = false;
             // 
             // linkChonAnh
             // 
@@ -89,14 +108,6 @@
             txtHinhAnh.Name = "txtHinhAnh";
             txtHinhAnh.Size = new Size(10, 10);
             txtHinhAnh.TabIndex = 40;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(181, 143);
-            pictureBox1.TabIndex = 41;
-            pictureBox1.TabStop = false;
             // 
             // txtTimKiem
             // 
@@ -134,15 +145,16 @@
             lblMaHang.TabIndex = 15;
             lblMaHang.Text = "Mã hàng:";
             // 
-            // button3
+            // btxoa
             // 
-            button3.BackColor = Color.FromArgb(192, 255, 192);
-            button3.Location = new Point(688, 172);
-            button3.Name = "button3";
-            button3.Size = new Size(100, 40);
-            button3.TabIndex = 34;
-            button3.Text = "🗑️ Xóa";
-            button3.UseVisualStyleBackColor = false;
+            btxoa.BackColor = Color.FromArgb(192, 255, 192);
+            btxoa.Location = new Point(688, 172);
+            btxoa.Name = "btxoa";
+            btxoa.Size = new Size(100, 40);
+            btxoa.TabIndex = 34;
+            btxoa.Text = "🗑️ Xóa";
+            btxoa.UseVisualStyleBackColor = false;
+            btxoa.Click += btxoa_Click;
             // 
             // dataGridView1
             // 
@@ -155,15 +167,16 @@
             dataGridView1.Size = new Size(720, 300);
             dataGridView1.TabIndex = 14;
             // 
-            // button2
+            // btsua
             // 
-            button2.BackColor = Color.FromArgb(192, 255, 192);
-            button2.Location = new Point(688, 122);
-            button2.Name = "button2";
-            button2.Size = new Size(100, 40);
-            button2.TabIndex = 33;
-            button2.Text = "✏️ Sửa";
-            button2.UseVisualStyleBackColor = false;
+            btsua.BackColor = Color.FromArgb(192, 255, 192);
+            btsua.Location = new Point(688, 122);
+            btsua.Name = "btsua";
+            btsua.Size = new Size(100, 40);
+            btsua.TabIndex = 33;
+            btsua.Text = "✏️ Sửa";
+            btsua.UseVisualStyleBackColor = false;
+            btsua.Click += btsua_Click;
             // 
             // lblTenHang
             // 
@@ -173,16 +186,16 @@
             lblTenHang.TabIndex = 16;
             lblTenHang.Text = "Tên hàng:";
             // 
-            // button1
+            // btthem
             // 
-            button1.BackColor = Color.FromArgb(192, 255, 192);
-            button1.Location = new Point(688, 72);
-            button1.Name = "button1";
-            button1.Size = new Size(100, 40);
-            button1.TabIndex = 32;
-            button1.Text = "➕ Thêm";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            btthem.BackColor = Color.FromArgb(192, 255, 192);
+            btthem.Location = new Point(688, 72);
+            btthem.Name = "btthem";
+            btthem.Size = new Size(100, 40);
+            btthem.TabIndex = 32;
+            btthem.Text = "➕ Thêm";
+            btthem.UseVisualStyleBackColor = false;
+            btthem.Click += btthem_Click;
             // 
             // lblSoLuong
             // 
@@ -243,17 +256,6 @@
             txtTenHang.Size = new Size(200, 23);
             txtTenHang.TabIndex = 21;
             // 
-            // panel2
-            // 
-            panel2.BackColor = Color.White;
-            panel2.Controls.Add(pictureBox1);
-            panel2.Controls.Add(linkChonAnh);
-            panel2.Controls.Add(txtHinhAnh);
-            panel2.Location = new Point(482, 72);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(183, 162);
-            panel2.TabIndex = 42;
-            // 
             // linhkienkhac
             // 
             BackColor = Color.Silver;
@@ -263,11 +265,11 @@
             Load += linhkienkhac_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -287,9 +289,9 @@
         private BindingSource bindingSource1;
         private TextBox txtTimKiem;
         private Button btnTimKiem;
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private Button btxoa;
+        private Button btsua;
+        private Button btthem;
         private PictureBox pictureBox1;
         private Label txtHinhAnh;
         private LinkLabel linkChonAnh;
