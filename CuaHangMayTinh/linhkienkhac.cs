@@ -1,6 +1,6 @@
-﻿using Microsoft.Data.SqlClient;
-using System;
+﻿using System;
 using System.Data;
+using Microsoft.Data.SqlClient;   // phải đồng bộ với DbHelper
 using System.IO;
 using System.Windows.Forms;
 using System.Drawing;
@@ -9,11 +9,9 @@ namespace CuaHangMayTinh
 {
     public partial class linhkienkhac : UserControl
     {
-        Microsoft.Data.SqlClient.SqlConnection kn = new Microsoft.Data.SqlClient.SqlConnection(
-            @"Data Source=.;Initial Catalog=CuaHangMayTinh;Integrated Security=True;Encrypt=False;TrustServerCertificate=True"
-        );
+        SqlConnection kn = DbHelper.GetConnection();   // System.Data.SqlClient.SqlConnection
 
-        Microsoft.Data.SqlClient.SqlDataAdapter adapter;
+        SqlDataAdapter adapter;   // System.Data.SqlClient.SqlDataAdapter
         DataSet ds = new DataSet();
 
         public linhkienkhac()

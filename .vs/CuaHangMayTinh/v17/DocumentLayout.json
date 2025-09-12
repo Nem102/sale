@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\linhkienkhac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\linhkienkhac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\cuahangmaytinh\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\properties\\cuahang1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\properties\\cuahang1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\properties\\cuahang1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\cuahangmaytinh\\properties\\cuahang1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\properties\\cuahang1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\cuahangmaytinh\\linhkienkhac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\linhkienkhac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\properties\\cuahang1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\properties\\cuahang1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\linhkienkhac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\linhkienkhac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\formmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\formmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\formmenu.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\formmenu.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\linhkienkhac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\linhkienkhac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\linhkienkhac.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,8 +58,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Database.cs",
+              "RelativeDocumentMoniker": "CuaHangMayTinh\\Database.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Database.cs",
+              "RelativeToolTip": "CuaHangMayTinh\\Database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:13:50.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Formmenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Formmenu.cs",
+              "RelativeDocumentMoniker": "CuaHangMayTinh\\Formmenu.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Formmenu.cs [Design]",
+              "RelativeToolTip": "CuaHangMayTinh\\Formmenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:04:41.387Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -49,25 +93,23 @@
               "ToolTip": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\linhkienkhac.cs [Design]",
               "RelativeToolTip": "CuaHangMayTinh\\linhkienkhac.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T16:20:36.879Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-10T16:20:36.879Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "cuahang1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Properties\\cuahang1.Designer.cs",
               "RelativeDocumentMoniker": "CuaHangMayTinh\\Properties\\cuahang1.Designer.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Properties\\cuahang1.Designer.cs",
               "RelativeToolTip": "CuaHangMayTinh\\Properties\\cuahang1.Designer.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAqwIgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAiwNMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T13:52:55.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T13:52:55.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "linhkienkhac.Designer.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\linhkienkhac.Designer.cs",
               "RelativeDocumentMoniker": "CuaHangMayTinh\\linhkienkhac.Designer.cs",
@@ -75,25 +117,11 @@
               "RelativeToolTip": "CuaHangMayTinh\\linhkienkhac.Designer.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAUwBgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T14:48:37.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T14:48:37.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "linhkienkhac.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\linhkienkhac.cs",
-              "RelativeDocumentMoniker": "CuaHangMayTinh\\linhkienkhac.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\linhkienkhac.cs",
-              "RelativeToolTip": "CuaHangMayTinh\\linhkienkhac.cs",
-              "ViewState": "AgIAAAIBAAAAAAAAAAAiwDQBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T14:46:08.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "cuahang1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Properties\\cuahang1.cs",
               "RelativeDocumentMoniker": "CuaHangMayTinh\\Properties\\cuahang1.cs",
@@ -105,20 +133,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "cuahang1.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Properties\\cuahang1.cs",
               "RelativeDocumentMoniker": "CuaHangMayTinh\\Properties\\cuahang1.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Properties\\cuahang1.cs",
               "RelativeToolTip": "CuaHangMayTinh\\Properties\\cuahang1.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAkwDcBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T14:45:54.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "Formmenu.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Formmenu.cs",
+              "RelativeDocumentMoniker": "CuaHangMayTinh\\Formmenu.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Formmenu.cs",
+              "RelativeToolTip": "CuaHangMayTinh\\Formmenu.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:04:43.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "formmenu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\formmenu.Designer.cs",
+              "RelativeDocumentMoniker": "CuaHangMayTinh\\formmenu.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\formmenu.Designer.cs",
+              "RelativeToolTip": "CuaHangMayTinh\\formmenu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:13:56.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "formmenu.resx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\formmenu.resx",
+              "RelativeDocumentMoniker": "CuaHangMayTinh\\formmenu.resx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\formmenu.resx",
+              "RelativeToolTip": "CuaHangMayTinh\\formmenu.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-11T17:13:59.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "linhkienkhac.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\linhkienkhac.cs",
+              "RelativeDocumentMoniker": "CuaHangMayTinh\\linhkienkhac.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\linhkienkhac.cs",
+              "RelativeToolTip": "CuaHangMayTinh\\linhkienkhac.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T14:46:08.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "DangNhap.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\DangNhap.cs",
               "RelativeDocumentMoniker": "CuaHangMayTinh\\DangNhap.cs",

@@ -219,3 +219,11 @@ C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windo
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.nhanvien.resources
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Dangky.resources
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.MainForm.resources
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.DbHelper.resources
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.dll.config
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll

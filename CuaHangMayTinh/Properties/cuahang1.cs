@@ -9,19 +9,18 @@ namespace CuaHangMayTinh
 {
     public partial class cuahang1 : UserControl
     {
-        SqlConnection kn = new SqlConnection(
-            @"Data Source=.;Initial Catalog=CuaHangMayTinh;Integrated Security=True;Encrypt=False;TrustServerCertificate=True"
-        );
+        SqlConnection kn = DbHelper.GetConnection();
+        // System.Data.SqlClient.SqlConnection
 
-        SqlDataAdapter adapter;
+        SqlDataAdapter adapter;   // System.Data.SqlClient.SqlDataAdapter
         DataSet ds = new DataSet();
 
         public cuahang1()
         {
             InitializeComponent();
-
             this.Click += cuahang1_Click;
             panel1.Click += cuahang1_Click;
+
         }
 
         private void cuahang1_Load(object sender, EventArgs e)
@@ -29,6 +28,8 @@ namespace CuaHangMayTinh
             LoadData();
             dataGridView1.CellClick += dataGridView1_CellClick;
             dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
+            
+
         }
 
         private void LoadData()
@@ -307,5 +308,12 @@ namespace CuaHangMayTinh
                 if (kn.State == ConnectionState.Open) kn.Close();
             }
         }
+
+
+      
+
+
+
+
     }
 }

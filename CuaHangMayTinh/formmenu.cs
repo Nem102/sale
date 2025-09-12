@@ -14,9 +14,18 @@ namespace CuaHangMayTinh
     public partial class Formmenu : Form
     {
         public Formmenu()
-        {
-            InitializeComponent();
-        }
+    {
+        InitializeComponent();
+    }
+
+    private void Formmenu_Load(object sender, EventArgs e)
+    {
+        LoadControl(new cuahang1()); // load mặc định
+    }
+        private void sảnPhẩmToolStripMenuItem1_Click(object sender, EventArgs e)
+    {
+        LoadControl(new cuahang1());
+    }
         private void sảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -91,9 +100,6 @@ namespace CuaHangMayTinh
             LoadControl(new nhanvien());
         }
 
-        private void sảnPhẩmToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            LoadControl(new cuahang1());
-        }
+        
     }
 }
