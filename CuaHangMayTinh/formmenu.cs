@@ -38,7 +38,7 @@ namespace CuaHangMayTinh
         }
         private void chiTiếtHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            LoadControl(new hoadonluu());
 
         }
 
@@ -58,6 +58,7 @@ namespace CuaHangMayTinh
             panelMain.Controls.Add(uc);
         }
 
+
         private void cửaToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -75,8 +76,9 @@ namespace CuaHangMayTinh
 
         private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadControl(new hoadon());
+            LoadControl(new hoadon1());
         }
+
 
         private void laptopToolStripMenuItem_Click(object sender, EventArgs e)
         {
