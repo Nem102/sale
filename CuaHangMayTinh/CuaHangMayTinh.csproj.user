@@ -19,12 +19,6 @@
     <Compile Update="khachhang.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="laptop.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="linhkien.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Update="linhkienkhac.cs">
       <SubType>UserControl</SubType>
     </Compile>
