@@ -16,7 +16,12 @@ namespace CuaHangMayTinh
         public Formmenu()
     {
         InitializeComponent();
-    }
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false; // tắt nút phóng to
+            this.MinimizeBox = true;  // vẫn cho phép thu nhỏ nếu muốn
+
+            this.Size = new Size(1200, 620); // đặt kích thước cố định Width x Height
+        }
 
     private void Formmenu_Load(object sender, EventArgs e)
     {

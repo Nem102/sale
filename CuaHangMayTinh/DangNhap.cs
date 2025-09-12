@@ -6,9 +6,8 @@ namespace CuaHangMayTinh
 {
     public partial class DangNhap : Form
     {
-        // Field duy nhất cho chuỗi kết nối
-        private readonly string connectionString =
-@"Data Source=.;Initial Catalog=CuaHangMayTinh;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;";
+        SqlConnection conn = DbHelper.GetConnection();
+
 
         public DangNhap()
         {
@@ -36,7 +35,7 @@ namespace CuaHangMayTinh
 
             try
             {
-                using (SqlConnection conn = new SqlConnection(this.connectionString))
+                using (SqlConnection conn = DbHelper.GetConnection()) // ✅ dùng DbHelper
                 {
                     conn.Open();
                     string query = "SELECT matkhau FROM TaiKhoan WHERE taikhoan = @username";
@@ -52,7 +51,6 @@ namespace CuaHangMayTinh
                             if (password == dbPassword)
                             {
                                 MessageBox.Show("Đăng nhập thành công!");
-                                // Set DialogResult để Program.cs mở Formmenu
                                 this.DialogResult = DialogResult.OK;
                                 this.Close();
                             }
