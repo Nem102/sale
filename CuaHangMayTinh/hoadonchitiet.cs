@@ -6,12 +6,12 @@ using Microsoft.Data.SqlClient;
 
 namespace CuaHangMayTinh
 {
-    public partial class hoadonluu : UserControl
+    public partial class hoadonchitiet : UserControl
     {
         SqlDataAdapter adapter;
         DataSet ds = new DataSet();
 
-        public hoadonluu()
+        public hoadonchitiet()
         {
             InitializeComponent();
 

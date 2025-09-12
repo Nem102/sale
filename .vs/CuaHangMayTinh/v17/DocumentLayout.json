@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|c:\\users\\admin\\source\\repos\\cuahangmaytinh\\cuahangmaytinh\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6277EE55-7C0F-4040-A237-E264ABAA624C}|CuaHangMayTinh\\CuaHangMayTinh.csproj|solutionrelative:cuahangmaytinh\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Formmenu.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Formmenu.cs",
+              "RelativeDocumentMoniker": "CuaHangMayTinh\\Formmenu.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\Formmenu.cs",
+              "RelativeToolTip": "CuaHangMayTinh\\Formmenu.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAMwFkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T15:39:24.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "hoadon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\hoadon.cs",
+              "RelativeDocumentMoniker": "CuaHangMayTinh\\hoadon.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\CuaHangMayTinh\\CuaHangMayTinh\\hoadon.cs [Design]",
+              "RelativeToolTip": "CuaHangMayTinh\\hoadon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T15:38:02.628Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

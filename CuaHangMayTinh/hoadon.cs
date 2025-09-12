@@ -5,9 +5,9 @@ using Microsoft.Data.SqlClient;
 
 namespace CuaHangMayTinh
 {
-    public partial class hoadon1 : UserControl
+    public partial class hoadon : UserControl
     {
-        public hoadon1()
+        public hoadon()
         {
             InitializeComponent();
 

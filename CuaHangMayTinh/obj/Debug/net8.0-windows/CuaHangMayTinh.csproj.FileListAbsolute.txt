@@ -148,8 +148,6 @@ C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windo
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.DbHelper.resources
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Formmenu.resources
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.khachhang.resources
-C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.laptop.resources
-C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.linhkien.resources
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.linhkienkhac.resources
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.MainForm.resources
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.nhanvien.resources
@@ -226,5 +224,5 @@ C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windo
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.pdb
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.genruntimeconfig.cache
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\ref\CuaHangMayTinh.dll
-C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadon1.resources
-C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadonluu.resources
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadon.resources
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadonchitiet.resources

@@ -1,6 +1,6 @@
 ﻿namespace CuaHangMayTinh
 {
-    partial class hoadonluu
+    partial class hoadonchitiet
     {
         private System.ComponentModel.IContainer components = null;
 

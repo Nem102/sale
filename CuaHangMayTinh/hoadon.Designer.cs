@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace CuaHangMayTinh
 {
-    partial class hoadon1
+    partial class hoadon
     {
         private System.ComponentModel.IContainer components = null;
 
