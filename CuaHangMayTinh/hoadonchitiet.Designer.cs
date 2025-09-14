@@ -7,9 +7,8 @@
         private Panel panel1;
         private DataGridView dataGridView1;
         private Button btnTimKiem;
-        private Button btnSua;
         private Button btnXoa;
-        private Label label1;
+        private Button btn_excel;
         private Label lblMaHD;
         private Label lblMaHang;
         private TextBox txtMaHD;
@@ -29,14 +28,14 @@
         {
             components = new System.ComponentModel.Container();
             panel1 = new Panel();
-            label1 = new Label();
+            lblTitle = new Label();
             lblMaHD = new Label();
             txtMaHD = new TextBox();
             lblMaHang = new Label();
             txtMaHang = new TextBox();
             btnTimKiem = new Button();
-            btnSua = new Button();
             btnXoa = new Button();
+            btn_excel = new Button();
             dataGridView1 = new DataGridView();
             bindingSource1 = new BindingSource(components);
             panel1.SuspendLayout();
@@ -47,29 +46,33 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(227, 242, 253);
-            panel1.Controls.Add(label1);
+            panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.Controls.Add(lblTitle);
             panel1.Controls.Add(lblMaHD);
             panel1.Controls.Add(txtMaHD);
             panel1.Controls.Add(lblMaHang);
             panel1.Controls.Add(txtMaHang);
             panel1.Controls.Add(btnTimKiem);
-            panel1.Controls.Add(btnSua);
             panel1.Controls.Add(btnXoa);
+            panel1.Controls.Add(btn_excel);
             panel1.Controls.Add(dataGridView1);
-            panel1.Location = new Point(161, 3);
+            panel1.Location = new Point(195, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(900, 622);
+            panel1.Size = new Size(1000, 768);
             panel1.TabIndex = 0;
             // 
-            // label1
+            // lblTitle
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 16F, FontStyle.Bold);
-            label1.Location = new Point(350, 20);
-            label1.Name = "label1";
-            label1.Size = new Size(181, 25);
-            label1.TabIndex = 0;
-            label1.Text = "Chi Tiết Hóa Đơn";
+            lblTitle.BackColor = Color.SteelBlue;
+            lblTitle.Dock = DockStyle.Top;
+            lblTitle.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            lblTitle.ForeColor = Color.White;
+            lblTitle.Location = new Point(0, 0);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(996, 50);
+            lblTitle.TabIndex = 9;
+            lblTitle.Text = "QUẢN LÝ HÓA ĐƠN CHI TIẾT";
+            lblTitle.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // lblMaHD
             // 
@@ -107,57 +110,61 @@
             // 
             // btnTimKiem
             // 
-            btnTimKiem.BackColor = Color.LightSkyBlue;
+            btnTimKiem.BackColor = Color.SkyBlue;
             btnTimKiem.Location = new Point(150, 150);
             btnTimKiem.Name = "btnTimKiem";
-            btnTimKiem.Size = new Size(100, 35);
+            btnTimKiem.Size = new Size(106, 35);
             btnTimKiem.TabIndex = 5;
             btnTimKiem.Text = "🔍 Tìm kiếm";
             btnTimKiem.UseVisualStyleBackColor = false;
             btnTimKiem.Click += btnTimKiem_Click;
             // 
-            // btnSua
-            // 
-            btnSua.BackColor = Color.Khaki;
-            btnSua.Location = new Point(300, 150);
-            btnSua.Name = "btnSua";
-            btnSua.Size = new Size(100, 35);
-            btnSua.TabIndex = 6;
-            btnSua.Text = "✏️ Sửa";
-            btnSua.UseVisualStyleBackColor = false;
-            btnSua.Click += btnSua_Click;
-            // 
             // btnXoa
             // 
-            btnXoa.BackColor = Color.LightCoral;
-            btnXoa.Location = new Point(450, 150);
+            btnXoa.BackColor = Color.SkyBlue;
+            btnXoa.Location = new Point(271, 150);
             btnXoa.Name = "btnXoa";
-            btnXoa.Size = new Size(100, 35);
-            btnXoa.TabIndex = 7;
+            btnXoa.Size = new Size(106, 35);
+            btnXoa.TabIndex = 6;
             btnXoa.Text = "🗑️ Xóa";
             btnXoa.UseVisualStyleBackColor = false;
             btnXoa.Click += btnXoa_Click;
             // 
+            // btn_excel
+            // 
+            btn_excel.BackColor = Color.SkyBlue;
+            btn_excel.Location = new Point(399, 150);
+            btn_excel.Name = "btn_excel";
+            btn_excel.Size = new Size(106, 35);
+            btn_excel.TabIndex = 7;
+            btn_excel.Text = "📑Xuất file excel";
+            btn_excel.UseVisualStyleBackColor = false;
+            btn_excel.Click += btn_excel_Click;
+            // 
             // dataGridView1
             // 
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.ColumnHeadersHeight = 29;
             dataGridView1.Location = new Point(50, 200);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
+            dataGridView1.RowHeadersWidth = 51;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(800, 450);
+            dataGridView1.Size = new Size(910, 450);
             dataGridView1.TabIndex = 8;
             // 
-            // hoadonluu
+            // hoadonchitiet
             // 
+            BackColor = Color.Silver;
             Controls.Add(panel1);
-            Name = "hoadonluu";
-            Size = new Size(1200, 625);
+            Name = "hoadonchitiet";
+            Size = new Size(1366, 768);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
         }
+        private Label lblTitle;
     }
 }

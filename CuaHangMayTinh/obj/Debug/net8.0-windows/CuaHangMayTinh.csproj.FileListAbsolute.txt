@@ -226,3 +226,290 @@ C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windo
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\ref\CuaHangMayTinh.dll
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadon.resources
 C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadonchitiet.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.exe
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.dll.config
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.deps.json
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.runtimeconfig.json
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.pdb
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.csproj.AssemblyReference.cache
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Dangky.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.DangNhap.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.DbHelper.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Formmenu.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadon.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadonchitiet.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.khachhang.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.linhkienkhac.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.MainForm.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.nhanvien.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.cuahang1.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.cuahang2.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Properties.Resources.resources
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.csproj.GenerateResource.cache
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.AssemblyInfoInputs.cache
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.AssemblyInfo.cs
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.csproj.CoreCompileInputs.cache
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangM.29DEE0CA.Up2Date
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\refint\CuaHangMayTinh.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.pdb
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.genruntimeconfig.cache
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\obj\Debug\net8.0-windows\ref\CuaHangMayTinh.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\ClosedXML.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\ClosedXML.Parser.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\RBush.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+C:\Users\Hi\Downloads\sale-main (1)\sale-main\CuaHangMayTinh\bin\Debug\net8.0-windows\System.IO.Packaging.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Dangky.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.DangNhap.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.DbHelper.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Formmenu.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadon.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadonchitiet.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.khachhang.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.linhkienkhac.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.MainForm.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.nhanvien.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.cuahang2.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Properties.Resources.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.AssemblyInfoInputs.cache
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.AssemblyInfo.cs
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\refint\CuaHangMayTinh.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.pdb
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.exe
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.dll.config
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.deps.json
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.runtimeconfig.json
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.pdb
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\ClosedXML.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\ClosedXML.Parser.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\RBush.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\System.IO.Packaging.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.cuahang1.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangM.29DEE0CA.Up2Date
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.genruntimeconfig.cache
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\ref\CuaHangMayTinh.dll
+C:\Users\admin\Downloads\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Giohang1.resources
+C:\Users\admin\Downloads\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Office.Interop.Excel.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.exe
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.dll.config
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.deps.json
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.runtimeconfig.json
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\CuaHangMayTinh.pdb
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\ClosedXML.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\ClosedXML.Parser.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Office.Interop.Excel.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\RBush.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\System.IO.Packaging.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Dangky.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.DangNhap.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.DbHelper.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Formmenu.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Giohang1.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadon.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.hoadonchitiet.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.khachhang.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.linhkienkhac.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.MainForm.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.nhanvien.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.cuahang1.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.cuahang2.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Properties.Resources.resources
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.AssemblyInfo.cs
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangM.29DEE0CA.Up2Date
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\refint\CuaHangMayTinh.dll
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.pdb
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.genruntimeconfig.cache
+C:\Users\admin\Desktop\a\CuaHangMayTinh\obj\Debug\net8.0-windows\ref\CuaHangMayTinh.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\ClosedXML.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\ClosedXML.Parser.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\Microsoft.Office.Interop.Excel.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\RBush.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\bin\Debug\net8.0-windows\System.IO.Packaging.dll
+C:\Users\admin\source\repos\CuaHangMayTinh\CuaHangMayTinh\obj\Debug\net8.0-windows\CuaHangMayTinh.Giohang1.resources

@@ -16,42 +16,246 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            panel1 = new Panel();
-            panel2 = new Panel();
-            pictureBox1 = new PictureBox();
-            linkChonAnh = new LinkLabel();
-            txtHinhAnh = new Label();
-            txtTimKiem = new TextBox();
-            label1 = new Label();
-            btnTimKiem = new Button();
-            lblMaHang = new Label();
-            btxoa = new Button();
-            dataGridView1 = new DataGridView();
-            btsua = new Button();
-            lblTenHang = new Label();
-            btthem = new Button();
-            lblSoLuong = new Label();
-            txtGhiChu = new TextBox();
-            lblGiaBan = new Label();
-            txtGiaBan = new TextBox();
-            lblGhiChu = new Label();
-            txtSoLuong = new TextBox();
-            txtMaHang = new TextBox();
-            txtTenHang = new TextBox();
             bindingSource1 = new BindingSource(components);
-            panel1.SuspendLayout();
+            txtTenHang = new TextBox();
+            txtMaHang = new TextBox();
+            txtSoLuong = new TextBox();
+            lblGhiChu = new Label();
+            txtGiaBan = new TextBox();
+            lblGiaBan = new Label();
+            txtGhiChu = new TextBox();
+            lblSoLuong = new Label();
+            btthem = new Button();
+            lblTenHang = new Label();
+            btsua = new Button();
+            dataGridView1 = new DataGridView();
+            btxoa = new Button();
+            lblMaHang = new Label();
+            btnTimKiem = new Button();
+            txtTimKiem = new TextBox();
+            panel2 = new Panel();
+            txtHinhAnh = new Label();
+            linkChonAnh = new LinkLabel();
+            pictureBox1 = new PictureBox();
+            lblTitle = new Label();
+            label2 = new Label();
+            panel1 = new Panel();
+            ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
+            // 
+            // txtTenHang
+            // 
+            txtTenHang.Location = new Point(114, 128);
+            txtTenHang.Name = "txtTenHang";
+            txtTenHang.Size = new Size(200, 23);
+            txtTenHang.TabIndex = 21;
+            // 
+            // txtMaHang
+            // 
+            txtMaHang.Location = new Point(114, 88);
+            txtMaHang.Name = "txtMaHang";
+            txtMaHang.Size = new Size(200, 23);
+            txtMaHang.TabIndex = 20;
+            // 
+            // txtSoLuong
+            // 
+            txtSoLuong.Location = new Point(114, 168);
+            txtSoLuong.Name = "txtSoLuong";
+            txtSoLuong.Size = new Size(200, 23);
+            txtSoLuong.TabIndex = 22;
+            // 
+            // lblGhiChu
+            // 
+            lblGhiChu.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            lblGhiChu.Location = new Point(27, 248);
+            lblGhiChu.Name = "lblGhiChu";
+            lblGhiChu.Size = new Size(81, 23);
+            lblGhiChu.TabIndex = 19;
+            lblGhiChu.Text = "Ghi chú:";
+            // 
+            // txtGiaBan
+            // 
+            txtGiaBan.Location = new Point(114, 208);
+            txtGiaBan.Name = "txtGiaBan";
+            txtGiaBan.Size = new Size(200, 23);
+            txtGiaBan.TabIndex = 23;
+            // 
+            // lblGiaBan
+            // 
+            lblGiaBan.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            lblGiaBan.Location = new Point(27, 208);
+            lblGiaBan.Name = "lblGiaBan";
+            lblGiaBan.Size = new Size(81, 23);
+            lblGiaBan.TabIndex = 18;
+            lblGiaBan.Text = "Giá bán:";
+            // 
+            // txtGhiChu
+            // 
+            txtGhiChu.Location = new Point(114, 248);
+            txtGhiChu.Name = "txtGhiChu";
+            txtGhiChu.Size = new Size(200, 23);
+            txtGhiChu.TabIndex = 24;
+            // 
+            // lblSoLuong
+            // 
+            lblSoLuong.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            lblSoLuong.Location = new Point(27, 168);
+            lblSoLuong.Name = "lblSoLuong";
+            lblSoLuong.Size = new Size(81, 23);
+            lblSoLuong.TabIndex = 17;
+            lblSoLuong.Text = "Số lượng:";
+            // 
+            // btthem
+            // 
+            btthem.BackColor = Color.SkyBlue;
+            btthem.Location = new Point(866, 89);
+            btthem.Name = "btthem";
+            btthem.Size = new Size(100, 40);
+            btthem.TabIndex = 32;
+            btthem.Text = "➕ Thêm";
+            btthem.UseVisualStyleBackColor = false;
+            btthem.Click += btthem_Click;
+            // 
+            // lblTenHang
+            // 
+            lblTenHang.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            lblTenHang.Location = new Point(27, 128);
+            lblTenHang.Name = "lblTenHang";
+            lblTenHang.Size = new Size(81, 23);
+            lblTenHang.TabIndex = 16;
+            lblTenHang.Text = "Tên hàng:";
+            // 
+            // btsua
+            // 
+            btsua.BackColor = Color.SkyBlue;
+            btsua.Location = new Point(866, 139);
+            btsua.Name = "btsua";
+            btsua.Size = new Size(100, 40);
+            btsua.TabIndex = 33;
+            btsua.Text = "✏️ Sửa";
+            btsua.UseVisualStyleBackColor = false;
+            btsua.Click += btsua_Click;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.BackgroundColor = Color.Silver;
+            dataGridView1.Location = new Point(29, 304);
+            dataGridView1.MultiSelect = false;
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView1.Size = new Size(937, 461);
+            dataGridView1.TabIndex = 14;
+            // 
+            // btxoa
+            // 
+            btxoa.BackColor = Color.SkyBlue;
+            btxoa.Location = new Point(866, 189);
+            btxoa.Name = "btxoa";
+            btxoa.Size = new Size(100, 40);
+            btxoa.TabIndex = 34;
+            btxoa.Text = "🗑️ Xóa";
+            btxoa.UseVisualStyleBackColor = false;
+            btxoa.Click += btxoa_Click;
+            // 
+            // lblMaHang
+            // 
+            lblMaHang.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            lblMaHang.Location = new Point(27, 88);
+            lblMaHang.Name = "lblMaHang";
+            lblMaHang.Size = new Size(81, 23);
+            lblMaHang.TabIndex = 15;
+            lblMaHang.Text = "Mã hàng:";
+            // 
+            // btnTimKiem
+            // 
+            btnTimKiem.BackColor = Color.SkyBlue;
+            btnTimKiem.Location = new Point(866, 256);
+            btnTimKiem.Name = "btnTimKiem";
+            btnTimKiem.Size = new Size(100, 40);
+            btnTimKiem.TabIndex = 35;
+            btnTimKiem.Text = "🔍 Tìm kiếm";
+            btnTimKiem.UseVisualStyleBackColor = false;
+            btnTimKiem.Click += btnTimKiem_Click;
+            // 
+            // txtTimKiem
+            // 
+            txtTimKiem.Location = new Point(660, 270);
+            txtTimKiem.Name = "txtTimKiem";
+            txtTimKiem.Size = new Size(200, 23);
+            txtTimKiem.TabIndex = 36;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.SteelBlue;
+            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(linkChonAnh);
+            panel2.Controls.Add(txtHinhAnh);
+            panel2.Location = new Point(405, 107);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(183, 162);
+            panel2.TabIndex = 42;
+            // 
+            // txtHinhAnh
+            // 
+            txtHinhAnh.Location = new Point(47, 151);
+            txtHinhAnh.Name = "txtHinhAnh";
+            txtHinhAnh.Size = new Size(10, 10);
+            txtHinhAnh.TabIndex = 40;
+            // 
+            // linkChonAnh
+            // 
+            linkChonAnh.AutoSize = true;
+            linkChonAnh.Location = new Point(47, 146);
+            linkChonAnh.Name = "linkChonAnh";
+            linkChonAnh.Size = new Size(90, 15);
+            linkChonAnh.TabIndex = 39;
+            linkChonAnh.TabStop = true;
+            linkChonAnh.Text = "LẤY HÌNH ẢNH";
+            linkChonAnh.LinkClicked += linkChonAnh_LinkClicked;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(181, 143);
+            pictureBox1.TabIndex = 41;
+            pictureBox1.TabStop = false;
+            // 
+            // lblTitle
+            // 
+            lblTitle.BackColor = Color.SteelBlue;
+            lblTitle.Dock = DockStyle.Top;
+            lblTitle.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            lblTitle.ForeColor = Color.White;
+            lblTitle.Location = new Point(0, 0);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(1000, 50);
+            lblTitle.TabIndex = 48;
+            lblTitle.Text = "QUẢN LÝ LINH KIỆN";
+            lblTitle.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(405, 85);
+            label2.Name = "label2";
+            label2.Size = new Size(178, 19);
+            label2.TabIndex = 49;
+            label2.Text = "HÌNH ẢNH SẢN PHẨM";
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(227, 242, 253);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(lblTitle);
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(txtTimKiem);
-            panel1.Controls.Add(label1);
             panel1.Controls.Add(btnTimKiem);
             panel1.Controls.Add(lblMaHang);
             panel1.Controls.Add(btxoa);
@@ -67,234 +271,50 @@
             panel1.Controls.Add(txtSoLuong);
             panel1.Controls.Add(txtMaHang);
             panel1.Controls.Add(txtTenHang);
-            panel1.Location = new Point(156, 3);
+            panel1.Location = new Point(174, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(861, 612);
+            panel1.Size = new Size(1000, 768);
             panel1.TabIndex = 29;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.White;
-            panel2.Controls.Add(pictureBox1);
-            panel2.Controls.Add(linkChonAnh);
-            panel2.Controls.Add(txtHinhAnh);
-            panel2.Location = new Point(482, 72);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(183, 162);
-            panel2.TabIndex = 42;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(181, 143);
-            pictureBox1.TabIndex = 41;
-            pictureBox1.TabStop = false;
-            // 
-            // linkChonAnh
-            // 
-            linkChonAnh.AutoSize = true;
-            linkChonAnh.Location = new Point(47, 146);
-            linkChonAnh.Name = "linkChonAnh";
-            linkChonAnh.Size = new Size(90, 15);
-            linkChonAnh.TabIndex = 39;
-            linkChonAnh.TabStop = true;
-            linkChonAnh.Text = "LẤY HÌNH ẢNH";
-            linkChonAnh.LinkClicked += linkChonAnh_LinkClicked;
-            // 
-            // txtHinhAnh
-            // 
-            txtHinhAnh.Location = new Point(47, 151);
-            txtHinhAnh.Name = "txtHinhAnh";
-            txtHinhAnh.Size = new Size(10, 10);
-            txtHinhAnh.TabIndex = 40;
-            // 
-            // txtTimKiem
-            // 
-            txtTimKiem.Location = new Point(482, 253);
-            txtTimKiem.Name = "txtTimKiem";
-            txtTimKiem.Size = new Size(200, 23);
-            txtTimKiem.TabIndex = 36;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(300, 11);
-            label1.Name = "label1";
-            label1.Size = new Size(260, 27);
-            label1.TabIndex = 28;
-            label1.Text = "CÁC LINH KIỆN KHÁC";
-            // 
-            // btnTimKiem
-            // 
-            btnTimKiem.BackColor = Color.FromArgb(192, 255, 192);
-            btnTimKiem.Location = new Point(688, 239);
-            btnTimKiem.Name = "btnTimKiem";
-            btnTimKiem.Size = new Size(100, 40);
-            btnTimKiem.TabIndex = 35;
-            btnTimKiem.Text = "🔍 Tìm kiếm";
-            btnTimKiem.UseVisualStyleBackColor = false;
-            btnTimKiem.Click += btnTimKiem_Click;
-            // 
-            // lblMaHang
-            // 
-            lblMaHang.Location = new Point(68, 72);
-            lblMaHang.Name = "lblMaHang";
-            lblMaHang.Size = new Size(100, 23);
-            lblMaHang.TabIndex = 15;
-            lblMaHang.Text = "Mã hàng:";
-            // 
-            // btxoa
-            // 
-            btxoa.BackColor = Color.FromArgb(192, 255, 192);
-            btxoa.Location = new Point(688, 172);
-            btxoa.Name = "btxoa";
-            btxoa.Size = new Size(100, 40);
-            btxoa.TabIndex = 34;
-            btxoa.Text = "🗑️ Xóa";
-            btxoa.UseVisualStyleBackColor = false;
-            btxoa.Click += btxoa_Click;
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView1.BackgroundColor = Color.Silver;
-            dataGridView1.Location = new Point(68, 285);
-            dataGridView1.MultiSelect = false;
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(720, 300);
-            dataGridView1.TabIndex = 14;
-            // 
-            // btsua
-            // 
-            btsua.BackColor = Color.FromArgb(192, 255, 192);
-            btsua.Location = new Point(688, 122);
-            btsua.Name = "btsua";
-            btsua.Size = new Size(100, 40);
-            btsua.TabIndex = 33;
-            btsua.Text = "✏️ Sửa";
-            btsua.UseVisualStyleBackColor = false;
-            btsua.Click += btsua_Click;
-            // 
-            // lblTenHang
-            // 
-            lblTenHang.Location = new Point(68, 112);
-            lblTenHang.Name = "lblTenHang";
-            lblTenHang.Size = new Size(100, 23);
-            lblTenHang.TabIndex = 16;
-            lblTenHang.Text = "Tên hàng:";
-            // 
-            // btthem
-            // 
-            btthem.BackColor = Color.FromArgb(192, 255, 192);
-            btthem.Location = new Point(688, 72);
-            btthem.Name = "btthem";
-            btthem.Size = new Size(100, 40);
-            btthem.TabIndex = 32;
-            btthem.Text = "➕ Thêm";
-            btthem.UseVisualStyleBackColor = false;
-            btthem.Click += btthem_Click;
-            // 
-            // lblSoLuong
-            // 
-            lblSoLuong.Location = new Point(68, 152);
-            lblSoLuong.Name = "lblSoLuong";
-            lblSoLuong.Size = new Size(100, 23);
-            lblSoLuong.TabIndex = 17;
-            lblSoLuong.Text = "Số lượng:";
-            // 
-            // txtGhiChu
-            // 
-            txtGhiChu.Location = new Point(174, 232);
-            txtGhiChu.Name = "txtGhiChu";
-            txtGhiChu.Size = new Size(200, 23);
-            txtGhiChu.TabIndex = 24;
-            // 
-            // lblGiaBan
-            // 
-            lblGiaBan.Location = new Point(68, 192);
-            lblGiaBan.Name = "lblGiaBan";
-            lblGiaBan.Size = new Size(100, 23);
-            lblGiaBan.TabIndex = 18;
-            lblGiaBan.Text = "Giá bán:";
-            // 
-            // txtGiaBan
-            // 
-            txtGiaBan.Location = new Point(174, 192);
-            txtGiaBan.Name = "txtGiaBan";
-            txtGiaBan.Size = new Size(200, 23);
-            txtGiaBan.TabIndex = 23;
-            // 
-            // lblGhiChu
-            // 
-            lblGhiChu.Location = new Point(68, 232);
-            lblGhiChu.Name = "lblGhiChu";
-            lblGhiChu.Size = new Size(100, 23);
-            lblGhiChu.TabIndex = 19;
-            lblGhiChu.Text = "Ghi chú:";
-            // 
-            // txtSoLuong
-            // 
-            txtSoLuong.Location = new Point(174, 152);
-            txtSoLuong.Name = "txtSoLuong";
-            txtSoLuong.Size = new Size(200, 23);
-            txtSoLuong.TabIndex = 22;
-            // 
-            // txtMaHang
-            // 
-            txtMaHang.Location = new Point(174, 72);
-            txtMaHang.Name = "txtMaHang";
-            txtMaHang.Size = new Size(200, 23);
-            txtMaHang.TabIndex = 20;
-            // 
-            // txtTenHang
-            // 
-            txtTenHang.Location = new Point(174, 112);
-            txtTenHang.Name = "txtTenHang";
-            txtTenHang.Size = new Size(200, 23);
-            txtTenHang.TabIndex = 21;
             // 
             // linhkienkhac
             // 
             BackColor = Color.Silver;
             Controls.Add(panel1);
             Name = "linhkienkhac";
-            Size = new Size(1184, 618);
+            Size = new Size(1350, 693);
             Load += linhkienkhac_Load;
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
         }
-
-        private Panel panel1;
-        private Label lblMaHang;
-        private DataGridView dataGridView1;
-        private Label lblTenHang;
-        private Label lblSoLuong;
-        private TextBox txtGhiChu;
-        private Label lblGiaBan;
-        private TextBox txtGiaBan;
-        private Label lblGhiChu;
-        private TextBox txtSoLuong;
-        private TextBox txtMaHang;
-        private TextBox txtTenHang;
-        private Label label1;
         private BindingSource bindingSource1;
-        private TextBox txtTimKiem;
-        private Button btnTimKiem;
-        private Button btxoa;
-        private Button btsua;
+        private TextBox txtTenHang;
+        private TextBox txtMaHang;
+        private TextBox txtSoLuong;
+        private Label lblGhiChu;
+        private TextBox txtGiaBan;
+        private Label lblGiaBan;
+        private TextBox txtGhiChu;
+        private Label lblSoLuong;
         private Button btthem;
-        private PictureBox pictureBox1;
-        private Label txtHinhAnh;
-        private LinkLabel linkChonAnh;
+        private Label lblTenHang;
+        private Button btsua;
+        private DataGridView dataGridView1;
+        private Button btxoa;
+        private Label lblMaHang;
+        private Button btnTimKiem;
+        private TextBox txtTimKiem;
         private Panel panel2;
+        private PictureBox pictureBox1;
+        private LinkLabel linkChonAnh;
+        private Label txtHinhAnh;
+        private Label lblTitle;
+        private Label label2;
+        private Panel panel1;
     }
 }

@@ -10,6 +10,9 @@
     <Compile Update="Formmenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Giohang1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="hoadon.cs">
       <SubType>UserControl</SubType>
     </Compile>

@@ -10,9 +10,7 @@ namespace CuaHangMayTinh
     public partial class cuahang1 : UserControl
     {
         SqlConnection kn = DbHelper.GetConnection();
-        // System.Data.SqlClient.SqlConnection
-
-        SqlDataAdapter adapter;   // System.Data.SqlClient.SqlDataAdapter
+        SqlDataAdapter adapter;
         DataSet ds = new DataSet();
 
         public cuahang1()
@@ -28,7 +26,7 @@ namespace CuaHangMayTinh
             LoadData();
             dataGridView1.CellClick += dataGridView1_CellClick;
             dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
-            
+
 
         }
 
@@ -309,11 +307,9 @@ namespace CuaHangMayTinh
             }
         }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
-      
-
-
-
-
+        }
     }
 }

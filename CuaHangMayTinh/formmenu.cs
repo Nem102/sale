@@ -14,23 +14,22 @@ namespace CuaHangMayTinh
     public partial class Formmenu : Form
     {
         public Formmenu()
-    {
-        InitializeComponent();
+        {
+            InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false; // tắt nút phóng to
-            this.MinimizeBox = true;  // vẫn cho phép thu nhỏ nếu muốn
-
-            this.Size = new Size(1200, 620); // đặt kích thước cố định Width x Height
+            this.MaximizeBox = false;
+            this.MinimizeBox = true;
+            this.Size = new Size(1366, 768);
         }
 
-    private void Formmenu_Load(object sender, EventArgs e)
-    {
-        LoadControl(new cuahang1()); // load mặc định
-    }
+        private void Formmenu_Load(object sender, EventArgs e)
+        {
+
+        }
         private void sảnPhẩmToolStripMenuItem1_Click(object sender, EventArgs e)
-    {
-        LoadControl(new cuahang1());
-    }
+        {
+            LoadControl(new cuahang1());
+        }
         private void sảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -82,18 +81,17 @@ namespace CuaHangMayTinh
 
         private void laptopToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void linhKiệnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void đăngNhậpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            DangNhap f = new DangNhap();
-            f.ShowDialog();
+            this.Close();
 
         }
 
@@ -107,6 +105,10 @@ namespace CuaHangMayTinh
             LoadControl(new nhanvien());
         }
 
-        
+        private void giỏHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadControl(new Giohang1());
+
+        }
     }
 }

@@ -33,7 +33,6 @@
             txtdiachi = new TextBox();
             txtghichu = new TextBox();
             txtsdt = new TextBox();
-            button10 = new Button();
             dataGridView1 = new DataGridView();
             bttimkiem = new Button();
             btxoa = new Button();
@@ -42,12 +41,13 @@
             txtten = new TextBox();
             txtho = new TextBox();
             txtmakh = new TextBox();
-            button6 = new Button();
-            button5 = new Button();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            lblTitle = new Label();
+            lblMaHang = new Label();
+            lblTenHang = new Label();
+            lblSoLuong = new Label();
+            lblGiaBan = new Label();
+            lblGhiChu = new Label();
+            label1 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -55,11 +55,17 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(227, 242, 253);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(lblMaHang);
+            panel1.Controls.Add(lblTenHang);
+            panel1.Controls.Add(lblSoLuong);
+            panel1.Controls.Add(lblGiaBan);
+            panel1.Controls.Add(lblGhiChu);
+            panel1.Controls.Add(lblTitle);
             panel1.Controls.Add(txttimkiem);
             panel1.Controls.Add(txtdiachi);
             panel1.Controls.Add(txtghichu);
             panel1.Controls.Add(txtsdt);
-            panel1.Controls.Add(button10);
             panel1.Controls.Add(dataGridView1);
             panel1.Controls.Add(bttimkiem);
             panel1.Controls.Add(btxoa);
@@ -68,30 +74,24 @@
             panel1.Controls.Add(txtten);
             panel1.Controls.Add(txtho);
             panel1.Controls.Add(txtmakh);
-            panel1.Controls.Add(button6);
-            panel1.Controls.Add(button5);
-            panel1.Controls.Add(button4);
-            panel1.Controls.Add(button3);
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
-            panel1.Location = new Point(110, 2);
+            panel1.Location = new Point(183, 0);
             panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(954, 695);
+            panel1.Size = new Size(1000, 693);
             panel1.TabIndex = 19;
             panel1.Paint += panel1_Paint;
             // 
             // txttimkiem
             // 
-            txttimkiem.Location = new Point(709, 260);
+            txttimkiem.Location = new Point(632, 270);
             txttimkiem.Margin = new Padding(3, 2, 3, 2);
             txttimkiem.Name = "txttimkiem";
-            txttimkiem.Size = new Size(142, 23);
+            txttimkiem.Size = new Size(213, 23);
             txttimkiem.TabIndex = 35;
             // 
             // txtdiachi
             // 
-            txtdiachi.Location = new Point(709, 129);
+            txtdiachi.Location = new Point(669, 130);
             txtdiachi.Margin = new Padding(3, 2, 3, 2);
             txtdiachi.Name = "txtdiachi";
             txtdiachi.Size = new Size(142, 23);
@@ -99,7 +99,7 @@
             // 
             // txtghichu
             // 
-            txtghichu.Location = new Point(709, 178);
+            txtghichu.Location = new Point(669, 179);
             txtghichu.Margin = new Padding(3, 2, 3, 2);
             txtghichu.Name = "txtghichu";
             txtghichu.Size = new Size(142, 23);
@@ -107,39 +107,29 @@
             // 
             // txtsdt
             // 
-            txtsdt.Location = new Point(709, 81);
+            txtsdt.Location = new Point(669, 82);
             txtsdt.Margin = new Padding(3, 2, 3, 2);
             txtsdt.Name = "txtsdt";
             txtsdt.Size = new Size(142, 23);
             txtsdt.TabIndex = 32;
             // 
-            // button10
-            // 
-            button10.Location = new Point(379, 11);
-            button10.Margin = new Padding(3, 2, 3, 2);
-            button10.Name = "button10";
-            button10.Size = new Size(222, 41);
-            button10.TabIndex = 31;
-            button10.Text = "THÔNG TIN KHÁCH HÀNG";
-            button10.UseVisualStyleBackColor = true;
-            // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(86, 310);
+            dataGridView1.Location = new Point(40, 310);
             dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(744, 385);
+            dataGridView1.Size = new Size(911, 385);
             dataGridView1.TabIndex = 30;
             // 
             // bttimkiem
             // 
-            bttimkiem.BackColor = Color.Lime;
-            bttimkiem.Location = new Point(582, 260);
+            bttimkiem.BackColor = Color.SkyBlue;
+            bttimkiem.Location = new Point(851, 260);
             bttimkiem.Margin = new Padding(3, 2, 3, 2);
             bttimkiem.Name = "bttimkiem";
-            bttimkiem.Size = new Size(96, 22);
+            bttimkiem.Size = new Size(100, 40);
             bttimkiem.TabIndex = 29;
             bttimkiem.Text = "🔍 Tìm kiếm";
             bttimkiem.UseVisualStyleBackColor = false;
@@ -147,11 +137,11 @@
             // 
             // btxoa
             // 
-            btxoa.BackColor = Color.Lime;
+            btxoa.BackColor = Color.SkyBlue;
             btxoa.Location = new Point(434, 260);
             btxoa.Margin = new Padding(3, 2, 3, 2);
             btxoa.Name = "btxoa";
-            btxoa.Size = new Size(82, 22);
+            btxoa.Size = new Size(100, 40);
             btxoa.TabIndex = 28;
             btxoa.Text = "🗑️ Xóa";
             btxoa.UseVisualStyleBackColor = false;
@@ -159,11 +149,11 @@
             // 
             // btsua
             // 
-            btsua.BackColor = Color.Lime;
+            btsua.BackColor = Color.SkyBlue;
             btsua.Location = new Point(270, 260);
             btsua.Margin = new Padding(3, 2, 3, 2);
             btsua.Name = "btsua";
-            btsua.Size = new Size(82, 22);
+            btsua.Size = new Size(100, 40);
             btsua.TabIndex = 27;
             btsua.Text = "✏️ Sửa";
             btsua.UseVisualStyleBackColor = false;
@@ -171,11 +161,11 @@
             // 
             // btthem
             // 
-            btthem.BackColor = Color.Lime;
+            btthem.BackColor = Color.SkyBlue;
             btthem.Location = new Point(111, 260);
             btthem.Margin = new Padding(3, 2, 3, 2);
             btthem.Name = "btthem";
-            btthem.Size = new Size(82, 22);
+            btthem.Size = new Size(100, 40);
             btthem.TabIndex = 26;
             btthem.Text = "➕ Thêm";
             btthem.UseVisualStyleBackColor = false;
@@ -183,7 +173,7 @@
             // 
             // txtten
             // 
-            txtten.Location = new Point(270, 178);
+            txtten.Location = new Point(249, 178);
             txtten.Margin = new Padding(3, 2, 3, 2);
             txtten.Name = "txtten";
             txtten.Size = new Size(158, 23);
@@ -191,7 +181,7 @@
             // 
             // txtho
             // 
-            txtho.Location = new Point(270, 130);
+            txtho.Location = new Point(249, 130);
             txtho.Margin = new Padding(3, 2, 3, 2);
             txtho.Name = "txtho";
             txtho.Size = new Size(158, 23);
@@ -199,71 +189,78 @@
             // 
             // txtmakh
             // 
-            txtmakh.Location = new Point(270, 82);
+            txtmakh.Location = new Point(249, 82);
             txtmakh.Margin = new Padding(3, 2, 3, 2);
             txtmakh.Name = "txtmakh";
             txtmakh.Size = new Size(158, 23);
             txtmakh.TabIndex = 23;
             // 
-            // button6
+            // lblTitle
             // 
-            button6.Location = new Point(582, 177);
-            button6.Margin = new Padding(3, 2, 3, 2);
-            button6.Name = "button6";
-            button6.Size = new Size(82, 22);
-            button6.TabIndex = 22;
-            button6.Text = "Ghi Chú";
-            button6.UseVisualStyleBackColor = true;
+            lblTitle.BackColor = Color.SteelBlue;
+            lblTitle.Dock = DockStyle.Top;
+            lblTitle.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            lblTitle.ForeColor = Color.White;
+            lblTitle.Location = new Point(0, 0);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(1000, 50);
+            lblTitle.TabIndex = 49;
+            lblTitle.Text = "QUẢN LÝ KHÁCH HÀNG";
+            lblTitle.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // button5
+            // lblMaHang
             // 
-            button5.Location = new Point(582, 128);
-            button5.Margin = new Padding(3, 2, 3, 2);
-            button5.Name = "button5";
-            button5.Size = new Size(82, 22);
-            button5.TabIndex = 21;
-            button5.Text = "Địa Chỉ";
-            button5.UseVisualStyleBackColor = true;
+            lblMaHang.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            lblMaHang.Location = new Point(112, 82);
+            lblMaHang.Name = "lblMaHang";
+            lblMaHang.Size = new Size(118, 23);
+            lblMaHang.TabIndex = 50;
+            lblMaHang.Text = "Mã khách hàng:";
             // 
-            // button4
+            // lblTenHang
             // 
-            button4.Location = new Point(582, 81);
-            button4.Margin = new Padding(3, 2, 3, 2);
-            button4.Name = "button4";
-            button4.Size = new Size(82, 22);
-            button4.TabIndex = 20;
-            button4.Text = "SDT";
-            button4.UseVisualStyleBackColor = true;
+            lblTenHang.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            lblTenHang.Location = new Point(112, 178);
+            lblTenHang.Name = "lblTenHang";
+            lblTenHang.Size = new Size(81, 23);
+            lblTenHang.TabIndex = 51;
+            lblTenHang.Text = "Tên :";
             // 
-            // button3
+            // lblSoLuong
             // 
-            button3.Location = new Point(111, 177);
-            button3.Margin = new Padding(3, 2, 3, 2);
-            button3.Name = "button3";
-            button3.Size = new Size(82, 22);
-            button3.TabIndex = 19;
-            button3.Text = "Tên";
-            button3.UseVisualStyleBackColor = true;
+            lblSoLuong.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            lblSoLuong.Location = new Point(582, 130);
+            lblSoLuong.Name = "lblSoLuong";
+            lblSoLuong.Size = new Size(81, 23);
+            lblSoLuong.TabIndex = 52;
+            lblSoLuong.Text = "Địa chỉ:";
             // 
-            // button2
+            // lblGiaBan
             // 
-            button2.Location = new Point(111, 128);
-            button2.Margin = new Padding(3, 2, 3, 2);
-            button2.Name = "button2";
-            button2.Size = new Size(82, 22);
-            button2.TabIndex = 18;
-            button2.Text = "Họ";
-            button2.UseVisualStyleBackColor = true;
+            lblGiaBan.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            lblGiaBan.Location = new Point(582, 80);
+            lblGiaBan.Name = "lblGiaBan";
+            lblGiaBan.Size = new Size(81, 23);
+            lblGiaBan.TabIndex = 53;
+            lblGiaBan.Text = "Số điện thoại:";
             // 
-            // button1
+            // lblGhiChu
             // 
-            button1.Location = new Point(111, 82);
-            button1.Margin = new Padding(3, 2, 3, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(124, 22);
-            button1.TabIndex = 17;
-            button1.Text = "Mã Khách Hàng";
-            button1.UseVisualStyleBackColor = true;
+            lblGhiChu.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            lblGhiChu.Location = new Point(582, 178);
+            lblGhiChu.Name = "lblGhiChu";
+            lblGhiChu.Size = new Size(81, 23);
+            lblGhiChu.TabIndex = 54;
+            lblGhiChu.Text = "Ghi chú:";
+            // 
+            // label1
+            // 
+            label1.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            label1.Location = new Point(112, 130);
+            label1.Name = "label1";
+            label1.Size = new Size(81, 23);
+            label1.TabIndex = 55;
+            label1.Text = "Họ:";
             // 
             // khachhang
             // 
@@ -272,7 +269,7 @@
             BackColor = Color.Silver;
             Controls.Add(panel1);
             Name = "khachhang";
-            Size = new Size(1170, 697);
+            Size = new Size(1350, 693);
             Load += khachhang_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -286,7 +283,6 @@
         private TextBox txtdiachi;
         private TextBox txtghichu;
         private TextBox txtsdt;
-        private Button button10;
         private DataGridView dataGridView1;
         private Button bttimkiem;
         private Button btxoa;
@@ -295,11 +291,12 @@
         private TextBox txtten;
         private TextBox txtho;
         private TextBox txtmakh;
-        private Button button6;
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private Label lblTitle;
+        private Label label1;
+        private Label lblMaHang;
+        private Label lblTenHang;
+        private Label lblSoLuong;
+        private Label lblGiaBan;
+        private Label lblGhiChu;
     }
 }

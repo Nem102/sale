@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Data;
-using Microsoft.Data.SqlClient;   // phải đồng bộ với DbHelper
+using Microsoft.Data.SqlClient;   
 using System.IO;
 using System.Windows.Forms;
 using System.Drawing;
@@ -35,7 +35,7 @@ namespace CuaHangMayTinh
             try
             {
                 if (kn.State == ConnectionState.Closed) kn.Open();
-                string sql = "SELECT ma_hang AS [Mã hàng], tenhang AS [Tên hàng], soluong AS [Số lượng], giaban AS [Giá bán], ghichu AS [Ghi chú], HinhAnh AS [Hình ảnh] " +
+                string sql = "SELECT ma_hang AS [Mã hàng], tenhang AS [Tên hàng], soluong AS [Số lượng], giaban AS [Giá bán], ghichu AS [Ghi chú], hinhanh AS [Hình ảnh] " +
                              "FROM HangBan WHERE ma_hang LIKE 'LK%'";
                 adapter = new Microsoft.Data.SqlClient.SqlDataAdapter(sql, kn);
                 ds = new DataSet();
@@ -123,7 +123,7 @@ namespace CuaHangMayTinh
                     txtHinhAnh.Text = originalPath;
 
                     kn.Open();
-                    string sql = "UPDATE HangBan SET HinhAnh=@anh WHERE ma_hang=@ma";
+                    string sql = "UPDATE HangBan SET hinhanh=@anh WHERE ma_hang=@ma";
                     var cmd = new Microsoft.Data.SqlClient.SqlCommand(sql, kn);
                     cmd.Parameters.AddWithValue("@ma", txtMaHang.Text);
                     cmd.Parameters.AddWithValue("@anh", originalPath);

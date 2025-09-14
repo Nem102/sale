@@ -28,14 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Load += new System.EventHandler(this.nhanvien_Load);
-
             panel1 = new Panel();
             txtdiachi = new TextBox();
             label2 = new Label();
             txtTimKiem = new TextBox();
             btTimKiem = new Button();
-            label1 = new Label();
             lblMaHang = new Label();
             dataGridView1 = new DataGridView();
             btxoa = new Button();
@@ -50,6 +47,7 @@
             txtten = new TextBox();
             txtmanv = new TextBox();
             txtho = new TextBox();
+            lblTitle = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -58,11 +56,11 @@
             // 
             panel1.BackColor = Color.FromArgb(227, 242, 253);
             panel1.BackgroundImageLayout = ImageLayout.Center;
+            panel1.Controls.Add(lblTitle);
             panel1.Controls.Add(txtdiachi);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(txtTimKiem);
             panel1.Controls.Add(btTimKiem);
-            panel1.Controls.Add(label1);
             panel1.Controls.Add(lblMaHang);
             panel1.Controls.Add(dataGridView1);
             panel1.Controls.Add(btxoa);
@@ -77,9 +75,9 @@
             panel1.Controls.Add(txtten);
             panel1.Controls.Add(txtmanv);
             panel1.Controls.Add(txtho);
-            panel1.Location = new Point(164, 3);
+            panel1.Location = new Point(174, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(861, 660);
+            panel1.Size = new Size(1000, 768);
             panel1.TabIndex = 29;
             panel1.Paint += panel1_Paint;
             // 
@@ -92,6 +90,7 @@
             // 
             // label2
             // 
+            label2.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             label2.Location = new Point(67, 206);
             label2.Name = "label2";
             label2.Size = new Size(100, 23);
@@ -100,15 +99,15 @@
             // 
             // txtTimKiem
             // 
-            txtTimKiem.Location = new Point(482, 232);
+            txtTimKiem.Location = new Point(660, 249);
             txtTimKiem.Name = "txtTimKiem";
             txtTimKiem.Size = new Size(200, 23);
             txtTimKiem.TabIndex = 31;
             // 
             // btTimKiem
             // 
-            btTimKiem.BackColor = Color.FromArgb(192, 255, 192);
-            btTimKiem.Location = new Point(688, 218);
+            btTimKiem.BackColor = Color.SkyBlue;
+            btTimKiem.Location = new Point(866, 235);
             btTimKiem.Name = "btTimKiem";
             btTimKiem.Size = new Size(100, 40);
             btTimKiem.TabIndex = 30;
@@ -116,18 +115,9 @@
             btTimKiem.UseVisualStyleBackColor = false;
             btTimKiem.Click += btnTimKiem_Click;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(300, 21);
-            label1.Name = "label1";
-            label1.Size = new Size(215, 27);
-            label1.TabIndex = 29;
-            label1.Text = "BẢNG NHÂN VIÊN";
-            // 
             // lblMaHang
             // 
+            lblMaHang.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             lblMaHang.Location = new Point(67, 88);
             lblMaHang.Name = "lblMaHang";
             lblMaHang.Size = new Size(100, 23);
@@ -139,18 +129,18 @@
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.BackgroundColor = Color.Silver;
             dataGridView1.ColumnHeadersHeight = 29;
-            dataGridView1.Location = new Point(68, 285);
+            dataGridView1.Location = new Point(29, 304);
             dataGridView1.MultiSelect = false;
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(720, 300);
+            dataGridView1.Size = new Size(937, 461);
             dataGridView1.TabIndex = 14;
             // 
             // btxoa
             // 
-            btxoa.BackColor = Color.FromArgb(192, 255, 192);
-            btxoa.Location = new Point(688, 172);
+            btxoa.BackColor = Color.SkyBlue;
+            btxoa.Location = new Point(866, 189);
             btxoa.Name = "btxoa";
             btxoa.Size = new Size(100, 40);
             btxoa.TabIndex = 27;
@@ -160,8 +150,8 @@
             // 
             // btsua
             // 
-            btsua.BackColor = Color.FromArgb(192, 255, 192);
-            btsua.Location = new Point(688, 122);
+            btsua.BackColor = Color.SkyBlue;
+            btsua.Location = new Point(866, 139);
             btsua.Name = "btsua";
             btsua.Size = new Size(100, 40);
             btsua.TabIndex = 26;
@@ -171,6 +161,7 @@
             // 
             // lblTenHang
             // 
+            lblTenHang.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             lblTenHang.Location = new Point(67, 117);
             lblTenHang.Name = "lblTenHang";
             lblTenHang.Size = new Size(100, 23);
@@ -179,8 +170,8 @@
             // 
             // btthem
             // 
-            btthem.BackColor = Color.FromArgb(192, 255, 192);
-            btthem.Location = new Point(688, 72);
+            btthem.BackColor = Color.SkyBlue;
+            btthem.Location = new Point(866, 89);
             btthem.Name = "btthem";
             btthem.Size = new Size(100, 40);
             btthem.TabIndex = 25;
@@ -190,6 +181,7 @@
             // 
             // lblSoLuong
             // 
+            lblSoLuong.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             lblSoLuong.Location = new Point(67, 151);
             lblSoLuong.Name = "lblSoLuong";
             lblSoLuong.Size = new Size(100, 23);
@@ -205,6 +197,7 @@
             // 
             // lblGiaBan
             // 
+            lblGiaBan.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             lblGiaBan.Location = new Point(67, 177);
             lblGiaBan.Name = "lblGiaBan";
             lblGiaBan.Size = new Size(100, 23);
@@ -220,6 +213,7 @@
             // 
             // lblGhiChu
             // 
+            lblGhiChu.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             lblGhiChu.Location = new Point(67, 238);
             lblGhiChu.Name = "lblGhiChu";
             lblGhiChu.Size = new Size(100, 23);
@@ -251,6 +245,19 @@
             txtho.Size = new Size(200, 23);
             txtho.TabIndex = 21;
             // 
+            // lblTitle
+            // 
+            lblTitle.BackColor = Color.SteelBlue;
+            lblTitle.Dock = DockStyle.Top;
+            lblTitle.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            lblTitle.ForeColor = Color.White;
+            lblTitle.Location = new Point(0, 0);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(1000, 50);
+            lblTitle.TabIndex = 49;
+            lblTitle.Text = "QUẢN LÝ NHÂN VIÊN";
+            lblTitle.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // nhanvien
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -258,7 +265,8 @@
             BackColor = Color.FromArgb(224, 224, 224);
             Controls.Add(panel1);
             Name = "nhanvien";
-            Size = new Size(1218, 663);
+            Size = new Size(1350, 693);
+            Load += nhanvien_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -270,7 +278,6 @@
         private Panel panel1;
         private TextBox txtTimKiem;
         private Button btTimKiem;
-        private Label label1;
         private Label lblMaHang;
         private DataGridView dataGridView1;
         private Button btxoa;
@@ -287,5 +294,6 @@
         private TextBox txtho;
         private TextBox txtdiachi;
         private Label label2;
+        private Label lblTitle;
     }
 }
